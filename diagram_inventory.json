@@ -1,0 +1,2112 @@
+{
+  "source_pdf": "GestaltView_Master_Wiki_v4.0.pdf",
+  "source_pages": 116,
+  "counts": {
+    "total": 54,
+    "curated": 13,
+    "captioned_figures": 39,
+    "mermaid_source_snippets": 2
+  },
+  "inventory_notes": [
+    "Text search across the 116-page PDF found two raw Mermaid graph source blocks; both are on page 78 and are rendered from their reproduced source text.",
+    "The 13 opening diagrams are preserved as PDF page crops because their Mermaid source code is not printed in the PDF text.",
+    "The 39 later Figure-caption entries are preserved as source-page crops and are not redrawn as if they were original Mermaid source.",
+    "Selectable key ideas on the 13 curated diagrams are explanatory text controls, not coordinate-level hotspots; no pixel positions are claimed.",
+    "All discovered items in this scoped inventory are represented; captions, source forms, and source pages are retained for review."
+  ],
+  "exceptions": [],
+  "chapters": [
+    {
+      "id": "foundation",
+      "title": "The recognition gap",
+      "story_title": "Why being seen needs infrastructure",
+      "dek": "We built places to publish and places to store. GestaltView asks what it takes to keep a person’s context intact while they think, change, and make things."
+    },
+    {
+      "id": "capture",
+      "title": "Capture and rooms",
+      "story_title": "A thought gets somewhere safe to land",
+      "dek": "First it can be held without being sorted. From there, the person—not a filing rule—decides whether it belongs in a room, a scaffold, or a future creation."
+    },
+    {
+      "id": "continuity",
+      "title": "Memory and continuity",
+      "story_title": "Memory is more than finding a similar sentence",
+      "dek": "The wiki separates raw material, knowledge fragments, temporal context, identity, and retrieval. The distinctions matter because a human life is not a nearest-neighbor query."
+    },
+    {
+      "id": "companions",
+      "title": "Billy and collaboration",
+      "story_title": "Help is a system of roles, not one magic box",
+      "dek": "Billy, skills, embodiment, routing, and specialized Digital Intelligences have different responsibilities. The architecture is meant to coordinate them, not pretend one voice does everything."
+    },
+    {
+      "id": "creation",
+      "title": "Creation and artifacts",
+      "story_title": "An artifact passes through a gate before it leaves",
+      "dek": "Captures can become plans and outputs, but rendering has stages, checks, and review. The pipeline diagram marks where the system must stop and ask what is allowed."
+    },
+    {
+      "id": "governance",
+      "title": "Governance and evidence",
+      "story_title": "Safety is part of the architecture",
+      "dek": "Invariants, evaluation, access controls, and evidence are drawn as system boundaries—not as a reassuring paragraph appended after the exciting bit."
+    },
+    {
+      "id": "topology",
+      "title": "The map behind the map",
+      "story_title": "The filing cabinet, with its drawers labeled",
+      "dek": "Repository topology, documentation graphs, and source maps show where responsibilities live and how a reader can trace a claim back to its home."
+    }
+  ],
+  "items": [
+    {
+      "id": "curated-01",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 1,
+      "title": "GestaltView at a Glance",
+      "caption": "GestaltView at a Glance",
+      "section": "1. GestaltView at a Glance",
+      "chapter_id": "foundation",
+      "chapter_title": "The recognition gap",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 1",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-01.jpg",
+      "alt_text": "Source-page crop of the diagram titled GestaltView at a Glance, from page 1 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 1,
+      "explanations": {
+        "orientation": "GestaltView is not one chatbot with a very ambitious hat. It is a set of places, helpers, memory, and technical plumbing meant to keep a person’s context available across different kinds of work.",
+        "system": "The map separates experience, intelligence and orchestration, continuity, execution, and persistence. A person moves through surfaces; distinct services handle routing, memory, creation, and storage.",
+        "architecture": "Read this as a layered system boundary map: experience surfaces sit above the intelligence/orchestration layer; continuity and execution connect to persistence services. The wiki explicitly warns that depicted future paths are not automatically live implementations."
+      },
+      "parts": [
+        {
+          "label": "Experience surfaces",
+          "explanations": {
+            "orientation": "In everyday terms, experience surfaces is one piece of the map: The screens and rooms where a person meets the system.",
+            "system": "System role — The screens and rooms where a person meets the system. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Experience surfaces. The screens and rooms where a person meets the system. This is an explanatory reading, not a coordinate-level annotation; use PDF page 1 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Intelligence and orchestration",
+          "explanations": {
+            "orientation": "In everyday terms, intelligence and orchestration is one piece of the map: The layer that coordinates requests and routes work.",
+            "system": "System role — The layer that coordinates requests and routes work. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Intelligence and orchestration. The layer that coordinates requests and routes work. This is an explanatory reading, not a coordinate-level annotation; use PDF page 1 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Continuity",
+          "explanations": {
+            "orientation": "In everyday terms, continuity is one piece of the map: Memory and identity context carried across moments.",
+            "system": "System role — Memory and identity context carried across moments. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Continuity. Memory and identity context carried across moments. This is an explanatory reading, not a coordinate-level annotation; use PDF page 1 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Execution",
+          "explanations": {
+            "orientation": "In everyday terms, execution is one piece of the map: The systems that perform work or produce outputs.",
+            "system": "System role — The systems that perform work or produce outputs. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Execution. The systems that perform work or produce outputs. This is an explanatory reading, not a coordinate-level annotation; use PDF page 1 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Persistence",
+          "explanations": {
+            "orientation": "In everyday terms, persistence is one piece of the map: The stores that retain records and structured state.",
+            "system": "System role — The stores that retain records and structured state. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Persistence. The stores that retain records and structured state. This is an explanatory reading, not a coordinate-level annotation; use PDF page 1 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-02",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 2,
+      "title": "The Core Product Journey",
+      "caption": "The Core Product Journey",
+      "section": "2. The Core Product Journey",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 2",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-02.jpg",
+      "alt_text": "Source-page crop of the diagram titled The Core Product Journey, from page 2 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 2,
+      "explanations": {
+        "orientation": "A thought can arrive before it knows what it wants to become. The journey gives it a place to land first; sorting and sharing can come later.",
+        "system": "The path moves from a fragment through Sanctuary and Blackboard capture, into the Dynamic Inner World or External Scaffold, then toward a blueprint, output, or downstream use. Raw expression and compressed artifacts are separate states.",
+        "architecture": "The source distinguishes the Pending Orb/Holding State from an approved compressed Scaffold Artifact. External Scaffold is an approval/compression layer; the Dynamic Inner World preserves raw spatial expression. See the original arrows and labels on page 2."
+      },
+      "parts": [
+        {
+          "label": "Fragment",
+          "explanations": {
+            "orientation": "In everyday terms, fragment is one piece of the map: A thought can be captured before it has a final destination.",
+            "system": "System role — A thought can be captured before it has a final destination. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Fragment. A thought can be captured before it has a final destination. This is an explanatory reading, not a coordinate-level annotation; use PDF page 2 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Sanctuary",
+          "explanations": {
+            "orientation": "In everyday terms, sanctuary is one piece of the map: A protected place to capture without having to perform.",
+            "system": "System role — A protected place to capture without having to perform. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Sanctuary. A protected place to capture without having to perform. This is an explanatory reading, not a coordinate-level annotation; use PDF page 2 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Blackboard",
+          "explanations": {
+            "orientation": "In everyday terms, blackboard is one piece of the map: A working surface for arranging captured material.",
+            "system": "System role — A working surface for arranging captured material. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Blackboard. A working surface for arranging captured material. This is an explanatory reading, not a coordinate-level annotation; use PDF page 2 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Dynamic Inner World",
+          "explanations": {
+            "orientation": "In everyday terms, dynamic inner world is one piece of the map: Raw, spatial expression held in a personal workspace.",
+            "system": "System role — Raw, spatial expression held in a personal workspace. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Dynamic Inner World. Raw, spatial expression held in a personal workspace. This is an explanatory reading, not a coordinate-level annotation; use PDF page 2 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "External Scaffold",
+          "explanations": {
+            "orientation": "In everyday terms, external scaffold is one piece of the map: An approved, compressed structure that can support action.",
+            "system": "System role — An approved, compressed structure that can support action. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: External Scaffold. An approved, compressed structure that can support action. This is an explanatory reading, not a coordinate-level annotation; use PDF page 2 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Artifact",
+          "explanations": {
+            "orientation": "In everyday terms, artifact is one piece of the map: A produced result that can move downstream.",
+            "system": "System role — A produced result that can move downstream. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Artifact. A produced result that can move downstream. This is an explanatory reading, not a coordinate-level annotation; use PDF page 2 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-03",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 3,
+      "title": "Capture Lifecycle / Bucket-Drop Model",
+      "caption": "Capture Lifecycle / Bucket-Drop Model",
+      "section": "3. Capture Lifecycle / Bucket-Drop Model",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 3",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-03.jpg",
+      "alt_text": "Source-page crop of the diagram titled Capture Lifecycle / Bucket-Drop Model, from page 3 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 3,
+      "explanations": {
+        "orientation": "The Bucket Drop is the system’s ‘save this before we lose it’ move. A destination is not required at the moment of capture. The filing cabinet can wait its turn.",
+        "system": "Capture branches into holding, Inner World, or an intentional send to External Scaffold. Approval, rejection, and deletion lead to different outcomes; approved material can connect to a creation candidate and then an artifact.",
+        "architecture": "The lifecycle labels include Captured, Holding, InnerWorld, PendingScaffold, Approved/Rejected/Deleted, Connected, ScaffoldArtifact, CreationCandidate, Blueprint, Artifact, and Exported. The source preserves capture-first behavior and makes approval/deletion branches explicit."
+      },
+      "parts": [
+        {
+          "label": "Captured",
+          "explanations": {
+            "orientation": "In everyday terms, captured is one piece of the map: Material is saved before the person has to decide where it belongs.",
+            "system": "System role — Material is saved before the person has to decide where it belongs. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Captured. Material is saved before the person has to decide where it belongs. This is an explanatory reading, not a coordinate-level annotation; use PDF page 3 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Holding",
+          "explanations": {
+            "orientation": "In everyday terms, holding is one piece of the map: A temporary state keeps material available without forcing a destination.",
+            "system": "System role — A temporary state keeps material available without forcing a destination. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Holding. A temporary state keeps material available without forcing a destination. This is an explanatory reading, not a coordinate-level annotation; use PDF page 3 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Approved / Rejected / Deleted",
+          "explanations": {
+            "orientation": "In everyday terms, approved / rejected / deleted is one piece of the map: These are distinct outcomes, not interchangeable cleanup labels.",
+            "system": "System role — These are distinct outcomes, not interchangeable cleanup labels. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Approved / Rejected / Deleted. These are distinct outcomes, not interchangeable cleanup labels. This is an explanatory reading, not a coordinate-level annotation; use PDF page 3 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Connected",
+          "explanations": {
+            "orientation": "In everyday terms, connected is one piece of the map: Approved material can be linked to a creation candidate.",
+            "system": "System role — Approved material can be linked to a creation candidate. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Connected. Approved material can be linked to a creation candidate. This is an explanatory reading, not a coordinate-level annotation; use PDF page 3 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Blueprint",
+          "explanations": {
+            "orientation": "In everyday terms, blueprint is one piece of the map: A selected candidate is shaped into a plan for making something.",
+            "system": "System role — A selected candidate is shaped into a plan for making something. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Blueprint. A selected candidate is shaped into a plan for making something. This is an explanatory reading, not a coordinate-level annotation; use PDF page 3 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Exported",
+          "explanations": {
+            "orientation": "In everyday terms, exported is one piece of the map: An output can leave the system after its earlier steps.",
+            "system": "System role — An output can leave the system after its earlier steps. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Exported. An output can leave the system after its earlier steps. This is an explanatory reading, not a coordinate-level annotation; use PDF page 3 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-04",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 4,
+      "title": "Dynamic Inner World: Six-Surface Spatial Model",
+      "caption": "Dynamic Inner World: Six-Surface Spatial Model",
+      "section": "4. Dynamic Inner World: Six-Surface Spatial Model",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 4",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-04.jpg",
+      "alt_text": "Source-page crop of the diagram titled Dynamic Inner World: Six-Surface Spatial Model, from page 4 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 4,
+      "explanations": {
+        "orientation": "The Dynamic Inner World is described as a room with six surfaces—not because every thought needs a room tour, but because different kinds of context need somewhere to sit.",
+        "system": "Forward, Back, Left, Right, Ceiling, and Floor organize raw captures by their relationship to the person’s attention and history. Inspection is available; sending material onward is optional.",
+        "architecture": "The source names six surfaces and maps active/visible material, older accumulated material, and unresolved/not-yet-landed material to spatial locations. It distinguishes the Inner World from the compressed External Scaffold."
+      },
+      "parts": [
+        {
+          "label": "Forward",
+          "explanations": {
+            "orientation": "In everyday terms, forward is one piece of the map: A surface for what is currently in front of attention.",
+            "system": "System role — A surface for what is currently in front of attention. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Forward. A surface for what is currently in front of attention. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Back",
+          "explanations": {
+            "orientation": "In everyday terms, back is one piece of the map: A surface for material behind or accumulated over time.",
+            "system": "System role — A surface for material behind or accumulated over time. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Back. A surface for material behind or accumulated over time. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Left",
+          "explanations": {
+            "orientation": "In everyday terms, left is one piece of the map: One of the room's named spatial surfaces.",
+            "system": "System role — One of the room's named spatial surfaces. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Left. One of the room's named spatial surfaces. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Right",
+          "explanations": {
+            "orientation": "In everyday terms, right is one piece of the map: One of the room's named spatial surfaces.",
+            "system": "System role — One of the room's named spatial surfaces. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Right. One of the room's named spatial surfaces. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Ceiling",
+          "explanations": {
+            "orientation": "In everyday terms, ceiling is one piece of the map: A named surface in the six-surface room model.",
+            "system": "System role — A named surface in the six-surface room model. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Ceiling. A named surface in the six-surface room model. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Floor",
+          "explanations": {
+            "orientation": "In everyday terms, floor is one piece of the map: A named surface in the six-surface room model.",
+            "system": "System role — A named surface in the six-surface room model. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Floor. A named surface in the six-surface room model. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-p015-1-natural-language-space-to-code-entity-space-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 15,
+      "title": "Natural Language Space to Code Entity Space mapping for Bucket Drops ingestion",
+      "caption": "Figure 1: Natural Language Space to Code Entity Space mapping for Bucket Drops ingestion",
+      "section": "Data Flow and Implementation",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 15",
+      "anchor": "Figure 1",
+      "context": "1. Capture : Raw text or audio streams enter via client components and hit the ingestion routes. 2. Chunking & Embedding : The backend splits raw captures into semantic chunks and generates 768-dimensional vector embeddings. 3. Persistence : Chunks are stored via Supabase RPC functions and memory pipelines.",
+      "asset_path": "story_assets/figure-p015-1-natural-language-space-to-code-entity-space-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Natural Language Space to Code Entity Space mapping for Bucket Drops ingestion, on page 15.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Natural Language Space to Code Entity Space mapping for Bucket Drops ingestion. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Data Flow and Implementation. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 1. Capture : Raw text or audio streams enter via client components and hit the ingestion routes. 2. Chunking & Embedding : The backend splits raw captures into semantic chunks and generates 768-dimensional vector embeddings. 3. Persistence : Chunks are stored via Supabase RPC functions and memory pipelines.",
+        "architecture": "Source caption: Natural Language Space to Code Entity Space mapping for Bucket Drops ingestion. Source section: Data Flow and Implementation. PDF page 15. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p024-1-natural-language-space-to-code-entity-space-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 24,
+      "title": "Natural Language Space to Code Entity Space for Core Pages",
+      "caption": "Figure 1: Natural Language Space to Code Entity Space for Core Pages",
+      "section": "Pages and Rooms",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 24",
+      "anchor": "Figure 1",
+      "context": "Relevant source files .agents/07_gemini_gems.md (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/.agents/07_gemini_gems.md?plain=1) .agents/08_asset_manifest.md (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/.agents/08_asset_manifest.md?plain=1) This wiki page provides a technical catalog and architectural breakdown of the client-side pages located in client/src/pages , alongside the room and theme state management systems ( roomState.ts and roomThemes.ts ). It details how natural language concepts map to runtime code entities, UI layouts, and state transitions within the GestaltView (GSVW) personal- intelligence client. 1.…",
+      "asset_path": "story_assets/figure-p024-1-natural-language-space-to-code-entity-space-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Natural Language Space to Code Entity Space for Core Pages, on page 24.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Natural Language Space to Code Entity Space for Core Pages. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Pages and Rooms. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Relevant source files .agents/07_gemini_gems.md (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/.agents/07_gemini_gems.md?plain=1) .agents/08_asset_manifest.md (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/.agents/08_asset_manifest.md?plain=1) This wiki page provides a technical catalog and architectural breakdown of the client-side pages located in client/src/pages , alongside the room and theme state management systems ( roomState.ts and roomThemes.ts ). It details how natural language concepts…",
+        "architecture": "Source caption: Natural Language Space to Code Entity Space for Core Pages. Source section: Pages and Rooms. PDF page 24. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p025-2-room-definitions-mapping-to-frontend-compone",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 25,
+      "title": "Room Definitions Mapping to Frontend Components",
+      "caption": "Figure 2: Room Definitions Mapping to Frontend Components",
+      "section": "Compiled wiki figure",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 25",
+      "anchor": "Figure 2",
+      "context": "2. Core Rooms Implementation Catalog The primary experiential spaces within GestaltView include Sanctuary, Blackboard/Whiteboard rooms, DynamicInnerWorld, and Tribunal. Each room provides specific cognitive scaffolding for the user and interacting digital intelligences (such as Billy). Sanctuary Whiteboard/Blackboard Dynamic Inner World Tribunal ROOM_DEFINITIONS.md ROOM_DEFINITIONS.md DynamicInnerWorldDef.md Tribunal Registry Room Concept Component & Definition client/src/pages/Sanctuary.tsx client/src/pages/WhiteboardRoom.tsx client/src/pages/DynamicInnerWorld.tsx client/src/pages/Tribunal.tsx",
+      "asset_path": "story_assets/figure-p025-2-room-definitions-mapping-to-frontend-compone.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Room Definitions Mapping to Frontend Components, on page 25.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Room Definitions Mapping to Frontend Components. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 2. Core Rooms Implementation Catalog The primary experiential spaces within GestaltView include Sanctuary, Blackboard/Whiteboard rooms, DynamicInnerWorld, and Tribunal. Each room provides specific cognitive scaffolding for the user and interacting digital intelligences (such as Billy). Sanctuary Whiteboard/Blackboard Dynamic Inner World Tribunal ROOM_DEFINITIONS.md ROOM_DEFINITIONS.md DynamicInnerWorldDef.md Tribunal Registry Room Concept Component & Definition client/src/pages/Sanctuary.tsx client/src/pages/WhiteboardRoom.tsx…",
+        "architecture": "Source caption: Room Definitions Mapping to Frontend Components. Source section: Compiled wiki figure. PDF page 25. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p026-3-room-state-and-theme-pipeline",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 26,
+      "title": "Room State and Theme Pipeline",
+      "caption": "Figure 3: Room State and Theme Pipeline",
+      "section": "Compiled wiki figure",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 26",
+      "anchor": "Figure 3",
+      "context": "Page Inventory Table Page Name Primary File Path Functional Role Central navigation hub, system health overview, quick- Dashboard client/src/pages/Dashboard.tsx action launchpad. Zero-friction capture interface for stream-of- BucketDrops client/src/pages/BucketDrops.tsx consciousness asides and fleeting thoughts. Generative artifact studio backed by the Python CreationCorner client/src/pages/CreationCorner.tsx generative engine and render pipelines. Standalone platform forfine-tuning, run inspection, .agents/08_asset_manifest.md81 and pricing tiers ( .agents/08_asset_manifest.md76 (https://github.com/keithsoyka0- AgentTrainer (https://github.com/keithsoyka0-…",
+      "asset_path": "story_assets/figure-p026-3-room-state-and-theme-pipeline.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3: Room State and Theme Pipeline, on page 26.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Room State and Theme Pipeline. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Page Inventory Table Page Name Primary File Path Functional Role Central navigation hub, system health overview, quick- Dashboard client/src/pages/Dashboard.tsx action launchpad. Zero-friction capture interface for stream-of- BucketDrops client/src/pages/BucketDrops.tsx consciousness asides and fleeting thoughts. Generative artifact studio backed by the Python CreationCorner client/src/pages/CreationCorner.tsx generative engine and render pipelines. Standalone platform forfine-tuning, run inspection, .agents/08_asset_manifest.md81…",
+        "architecture": "Source caption: Room State and Theme Pipeline. Source section: Compiled wiki figure. PDF page 26. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p050-3-bucket-drop-capture-pipeline-from-stream-of-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 50,
+      "title": "Bucket-Drop Capture Pipeline from Stream-of-Consciousness to Persistent Storage",
+      "caption": "Figure 3: Bucket-Drop Capture Pipeline from Stream-of-Consciousness to Persistent Storage",
+      "section": "3. Bucket-Drop Capture Pipeline",
+      "chapter_id": "capture",
+      "chapter_title": "Capture and rooms",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 50",
+      "anchor": "Figure 3",
+      "context": "The bucket-drop capture mechanism is designed for zero-friction ingestion of raw voice-to- text transcripts, stream-of-consciousness asides, and rapid parenthetical ideas. +-------------------------------------------------------+ | Natural Language Space | | \"Asides, parenthetical ideas, half-finished thoughts\"| +----------------------- ----+---------------------------+ | v +-------------------------------------------- -----------+ | Code Entity Space | | server/core/BillyEngine.ts | | - processBucketDrop() | | - extractFragmentTriage() | +---------------------------+-- -------------------------+ | v +--------------------------------------------------- ----+ | Code…",
+      "asset_path": "story_assets/figure-p050-3-bucket-drop-capture-pipeline-from-stream-of-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3: Bucket-Drop Capture Pipeline from Stream-of-Consciousness to Persistent Storage, on page 50.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Bucket-Drop Capture Pipeline from Stream-of-Consciousness to Persistent Storage. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 3. Bucket-Drop Capture Pipeline. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The bucket-drop capture mechanism is designed for zero-friction ingestion of raw voice-to- text transcripts, stream-of-consciousness asides, and rapid parenthetical ideas. +-------------------------------------------------------+ | Natural Language Space | | \"Asides, parenthetical ideas, half-finished thoughts\"| +----------------------- ----+---------------------------+ | v +-------------------------------------------- -----------+ | Code Entity Space | | server/core/BillyEngine.ts | | - processBucketDrop() | | -…",
+        "architecture": "Source caption: Bucket-Drop Capture Pipeline from Stream-of-Consciousness to Persistent Storage. Source section: 3. Bucket-Drop Capture Pipeline. PDF page 50. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "curated-05",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 4,
+      "title": "Memory and Retrieval Architecture",
+      "caption": "Memory and Retrieval Architecture",
+      "section": "5. Memory and Retrieval Architecture",
+      "chapter_id": "continuity",
+      "chapter_title": "Memory and continuity",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 4",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-05.jpg",
+      "alt_text": "Source-page crop of the diagram titled Memory and Retrieval Architecture, from page 4 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 5,
+      "explanations": {
+        "orientation": "Continuity is not just remembering the closest matching paragraph. The system tries to keep source material, meaning, and time in view together.",
+        "system": "Raw sources can pass through ingestion into documents, fragments, concepts, annotations, and summaries. Retrieval and temporal/arc context contribute to context assembly before a Digital Intelligence responds or acts.",
+        "architecture": "The diagram separates embeddings, summaries, documents, knowledge fragments, concepts, annotations, retrieval, context assembly, and temporal/arc context. The source explicitly rejects ‘vector search = memory’ as an adequate architecture description."
+      },
+      "parts": [
+        {
+          "label": "Raw sources",
+          "explanations": {
+            "orientation": "In everyday terms, raw sources is one piece of the map: Original material remains distinct from later interpretations.",
+            "system": "System role — Original material remains distinct from later interpretations. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Raw sources. Original material remains distinct from later interpretations. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Knowledge fragments",
+          "explanations": {
+            "orientation": "In everyday terms, knowledge fragments is one piece of the map: Smaller pieces can be indexed and retrieved by meaning.",
+            "system": "System role — Smaller pieces can be indexed and retrieved by meaning. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Knowledge fragments. Smaller pieces can be indexed and retrieved by meaning. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Embeddings",
+          "explanations": {
+            "orientation": "In everyday terms, embeddings is one piece of the map: Vector representations support similarity-based retrieval.",
+            "system": "System role — Vector representations support similarity-based retrieval. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Embeddings. Vector representations support similarity-based retrieval. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Temporal context",
+          "explanations": {
+            "orientation": "In everyday terms, temporal context is one piece of the map: Time and arcs add context that similarity alone cannot provide.",
+            "system": "System role — Time and arcs add context that similarity alone cannot provide. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Temporal context. Time and arcs add context that similarity alone cannot provide. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Retrieval",
+          "explanations": {
+            "orientation": "In everyday terms, retrieval is one piece of the map: Relevant material is gathered for the present task.",
+            "system": "System role — Relevant material is gathered for the present task. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Retrieval. Relevant material is gathered for the present task. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Context assembly",
+          "explanations": {
+            "orientation": "In everyday terms, context assembly is one piece of the map: Selected sources and context are brought together before a response.",
+            "system": "System role — Selected sources and context are brought together before a response. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Context assembly. Selected sources and context are brought together before a response. This is an explanatory reading, not a coordinate-level annotation; use PDF page 4 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-09",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 5,
+      "title": "Database Domain Map",
+      "caption": "Database Domain Map",
+      "section": "9. Database Domain Map",
+      "chapter_id": "continuity",
+      "chapter_title": "Memory and continuity",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 5",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-09.jpg",
+      "alt_text": "Source-page crop of the diagram titled Database Domain Map, from page 5 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 9,
+      "explanations": {
+        "orientation": "A database is a set of related neighborhoods, not one undifferentiated bucket. This map shows the kinds of information the system keeps near one another.",
+        "system": "The inventory groups data into Identity, Billy Runtime & Continuity, Knowledge & Corpus, Agent Personhood, Agent Trainer & Governance, GATE Commerce, Operations, and Tribunal/Deliberation.",
+        "architecture": "The visible table/domain labels include users/app_users; sessions and bucket drops; memory and consciousness profiles; documents/fragments/embeddings; agent memories/manifests/skills/relationships; trainer runs/evaluations/approvals; and commerce artifacts. Consult the source page for exact labels."
+      },
+      "parts": [
+        {
+          "label": "Identity",
+          "explanations": {
+            "orientation": "In everyday terms, identity is one piece of the map: Account and identity records anchor a person's place in the system.",
+            "system": "System role — Account and identity records anchor a person's place in the system. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Identity. Account and identity records anchor a person's place in the system. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Billy runtime and continuity",
+          "explanations": {
+            "orientation": "In everyday terms, billy runtime and continuity is one piece of the map: Sessions and memory support an ongoing companion relationship.",
+            "system": "System role — Sessions and memory support an ongoing companion relationship. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Billy runtime and continuity. Sessions and memory support an ongoing companion relationship. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Knowledge and corpus",
+          "explanations": {
+            "orientation": "In everyday terms, knowledge and corpus is one piece of the map: Documents and fragments preserve source material for retrieval.",
+            "system": "System role — Documents and fragments preserve source material for retrieval. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Knowledge and corpus. Documents and fragments preserve source material for retrieval. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Agent personhood",
+          "explanations": {
+            "orientation": "In everyday terms, agent personhood is one piece of the map: Manifests, skills, relationships, and memories describe agent embodiment.",
+            "system": "System role — Manifests, skills, relationships, and memories describe agent embodiment. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Agent personhood. Manifests, skills, relationships, and memories describe agent embodiment. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Trainer and governance",
+          "explanations": {
+            "orientation": "In everyday terms, trainer and governance is one piece of the map: Runs, evaluations, approvals, and controls support package review.",
+            "system": "System role — Runs, evaluations, approvals, and controls support package review. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Trainer and governance. Runs, evaluations, approvals, and controls support package review. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "GATE commerce",
+          "explanations": {
+            "orientation": "In everyday terms, gate commerce is one piece of the map: Commercial entities have a distinct domain in the map.",
+            "system": "System role — Commercial entities have a distinct domain in the map. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: GATE commerce. Commercial entities have a distinct domain in the map. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-p032-1-high-level-mapping-of-client-requests-across",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 32,
+      "title": "High-level mapping of client requests across the api/ route surface into core database persistence layers",
+      "caption": "Figure 1: High-level mapping of client requests across the api/ route surface into core database persistence layers",
+      "section": "API Route Surface (api/)",
+      "chapter_id": "continuity",
+      "chapter_title": "Memory and continuity",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 32",
+      "anchor": "Figure 1",
+      "context": "Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) .agents/08_asset_manifest.md (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/.agents/08_asset_manifest.md?plain=1) Purpose and Scope The api/ directory houses the serverless backend route surface of GestaltView (GSVW), implemented primarily as Next.js API routes or edge functions that handle incoming client requests, orchestrate multi-LLM workflows, manage agent embodiment pro files, process generative artifacts, and interface with the Supabase PostgreSQL database…",
+      "asset_path": "story_assets/figure-p032-1-high-level-mapping-of-client-requests-across.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: High-level mapping of client requests across the api/ route surface into core database persistence layers, on page 32.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of High-level mapping of client requests across the api/ route surface into core database persistence layers. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in API Route Surface (api/). It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) .agents/08_asset_manifest.md (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/.agents/08_asset_manifest.md?plain=1) Purpose and Scope The api/ directory houses the serverless backend route surface of GestaltView (GSVW), implemented primarily as Next.js API routes or edge functions that handle incoming client requests, orchestrate multi-LLM…",
+        "architecture": "Source caption: High-level mapping of client requests across the api/ route surface into core database persistence layers. Source section: API Route Surface (api/). PDF page 32. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p035-3-memory-pipeline-ingestion-and-storage-archit",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 35,
+      "title": "Memory pipeline ingestion and storage architecture",
+      "caption": "Figure 3: Memory pipeline ingestion and storage architecture",
+      "section": "Compiled wiki figure",
+      "chapter_id": "continuity",
+      "chapter_title": "Memory and continuity",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 35",
+      "anchor": "Figure 3",
+      "context": "3. Response Helpers and Sentry Error Tracking Consistency across API route responses is enforced via standardized response helper utilities. These functions wrap payload data, error messages, and HTTP status codes into predictable JSON envelopes. Error monitoring and performance tracing are centralized through integration with Sentry ( sentry.ts ). Unhandled exceptions within API handlers are automatically captured, enriched with request context, and dispatched to tracking endpoints without leaking internal stack traces to the client. coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1#L21-L24) 4. Embeddings and Vector Operations The…",
+      "asset_path": "story_assets/figure-p035-3-memory-pipeline-ingestion-and-storage-archit.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3: Memory pipeline ingestion and storage architecture, on page 35.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Memory pipeline ingestion and storage architecture. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 3. Response Helpers and Sentry Error Tracking Consistency across API route responses is enforced via standardized response helper utilities. These functions wrap payload data, error messages, and HTTP status codes into predictable JSON envelopes. Error monitoring and performance tracing are centralized through integration with Sentry ( sentry.ts ). Unhandled exceptions within API handlers are automatically captured, enriched with request context, and dispatched to tracking endpoints without leaking internal stack traces to the…",
+        "architecture": "Source caption: Memory pipeline ingestion and storage architecture. Source section: Compiled wiki figure. PDF page 35. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "corpus-ingestion-flow",
+      "kind": "mermaid_source",
+      "kind_label": "Mermaid source in PDF",
+      "source_form": "Mermaid source code reproduced from the PDF snippet and rendered from that text",
+      "confidence": "high",
+      "confidence_note": "Node labels and arrow relationships match the printed snippet; PDF line wrapping was normalized for rendering.",
+      "page": 78,
+      "title": "Corpus Ingestion and Embedding Flow",
+      "caption": "Corpus Ingestion and Embedding Flow",
+      "section": "Corpus ingestion and vector persistence",
+      "chapter_id": "continuity",
+      "chapter_title": "Memory and continuity",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 78 · Mermaid text reproduced from the printed source snippet",
+      "anchor": "Mermaid source snippet on page 78",
+      "context": "The source shows corpus harvesting, ingestion, vector generation, and database application as an ordered flow.",
+      "asset_path": "story_assets/corpus-ingestion-flow.png",
+      "alt_text": "Rendered flowchart from the Mermaid source snippet titled Corpus Ingestion and Embedding Flow on page 78.",
+      "featured": false,
+      "curated_order": 1000,
+      "mermaid_source": "graph TD\n  A[\"corpus-harvest-worker\"] --> B[\"gsvw-ingest-batch\"]\n  B --> C[\"gsvw_ingestion_chunks\"]\n  C --> D[\"google/embeddinggemma-300m\"]\n  D --> E[\"apply_gsvw_embeddings\"]\n  E --> F[\"gsvw_bulk_update_chunk_embeddings\"]\n",
+      "explanations": {
+        "orientation": "This is a map of Corpus Ingestion and Embedding Flow. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Corpus ingestion and vector persistence. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The source shows corpus harvesting, ingestion, vector generation, and database application as an ordered flow.",
+        "architecture": "Source caption: Corpus Ingestion and Embedding Flow. Source section: Corpus ingestion and vector persistence. PDF page 78. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "natural-language-code-entity-mapping",
+      "kind": "mermaid_source",
+      "kind_label": "Mermaid source in PDF",
+      "source_form": "Mermaid source code reproduced from the PDF snippet and rendered from that text",
+      "confidence": "high",
+      "confidence_note": "Node labels and arrow relationships match the printed snippet; PDF line wrapping was normalized for rendering.",
+      "page": 78,
+      "title": "Natural Language to Code Entity Mapping for Corpus Pipeline",
+      "caption": "Natural Language to Code Entity Mapping for Corpus Pipeline",
+      "section": "Corpus ingestion and vector persistence",
+      "chapter_id": "continuity",
+      "chapter_title": "Memory and continuity",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 78 · Mermaid text reproduced from the printed source snippet",
+      "anchor": "Mermaid source snippet on page 78",
+      "context": "The PDF includes the Mermaid text for this mapping. The separately rendered diagram below is generated from that printed source snippet.",
+      "asset_path": "story_assets/natural-language-code-entity-mapping.png",
+      "alt_text": "Rendered flowchart from the Mermaid source snippet titled Natural Language to Code Entity Mapping for Corpus Pipeline on page 78.",
+      "featured": false,
+      "curated_order": 1000,
+      "mermaid_source": "graph TD\n  NL1[\"Natural Language Chunk\"] --> CE1[\"supabase/functions/gsvw-ingest-batch\"]\n  NL2[\"768-dim Vector Representation\"] --> CE2[\"gsvw_ingestion_chunks\"]\n  NL3[\"Bulk Embedding Update\"] --> CE3[\"gsvw_bulk_update_chunk_embeddings\"]\n  NL4[\"Single Vector Application\"] --> CE4[\"apply_gsvw_embeddings\"]\n",
+      "explanations": {
+        "orientation": "This is a map of Natural Language to Code Entity Mapping for Corpus Pipeline. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Corpus ingestion and vector persistence. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The PDF includes the Mermaid text for this mapping. The separately rendered diagram below is generated from that printed source snippet.",
+        "architecture": "Source caption: Natural Language to Code Entity Mapping for Corpus Pipeline. Source section: Corpus ingestion and vector persistence. PDF page 78. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "curated-06",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 5,
+      "title": "Multi-LLM / Digital Intelligence Orchestration",
+      "caption": "Multi-LLM / Digital Intelligence Orchestration",
+      "section": "6. Multi-LLM / Digital Intelligence Orchestration",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 5",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-06.jpg",
+      "alt_text": "Source-page crop of the diagram titled Multi-LLM / Digital Intelligence Orchestration, from page 5 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 6,
+      "explanations": {
+        "orientation": "Different kinds of work need different kinds of help. This map shows coordination: who receives the request, what context matters, and where a specialized Digital Intelligence may take over.",
+        "system": "Input and intent are assembled with embodiment and skills, routed through an orchestrator, and handed to specialized capabilities such as capture/curation, integrity, retrieval, creation, engineering, or evaluation.",
+        "architecture": "The source presents the orchestrator as a routing/handoff layer. Context assembly, Embodiment Profiles, Skills Library, routing, specialized intelligences, and operational outputs are separate concepts, not synonyms for a single runtime node."
+      },
+      "parts": [
+        {
+          "label": "Input and intent",
+          "explanations": {
+            "orientation": "In everyday terms, input and intent is one piece of the map: The request is considered with what the person is trying to do.",
+            "system": "System role — The request is considered with what the person is trying to do. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Input and intent. The request is considered with what the person is trying to do. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Context assembly",
+          "explanations": {
+            "orientation": "In everyday terms, context assembly is one piece of the map: Relevant personal and task context is gathered.",
+            "system": "System role — Relevant personal and task context is gathered. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Context assembly. Relevant personal and task context is gathered. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Embodiment Profile",
+          "explanations": {
+            "orientation": "In everyday terms, embodiment profile is one piece of the map: A profile carries identity, relationship, and operating context.",
+            "system": "System role — A profile carries identity, relationship, and operating context. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Embodiment Profile. A profile carries identity, relationship, and operating context. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Router / orchestrator",
+          "explanations": {
+            "orientation": "In everyday terms, router / orchestrator is one piece of the map: The coordination layer selects a route or handoff.",
+            "system": "System role — The coordination layer selects a route or handoff. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Router / orchestrator. The coordination layer selects a route or handoff. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Specialized Digital Intelligences",
+          "explanations": {
+            "orientation": "In everyday terms, specialized digital intelligences is one piece of the map: Different capabilities can take on different kinds of work.",
+            "system": "System role — Different capabilities can take on different kinds of work. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Specialized Digital Intelligences. Different capabilities can take on different kinds of work. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Operational outputs",
+          "explanations": {
+            "orientation": "In everyday terms, operational outputs is one piece of the map: The result returns to a human-facing workflow.",
+            "system": "System role — The result returns to a human-facing workflow. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Operational outputs. The result returns to a human-facing workflow. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-07",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 5,
+      "title": "Skills + Embodiment Profile Graph",
+      "caption": "Skills + Embodiment Profile Graph",
+      "section": "7. Skills + Embodiment Profile Graph",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 5",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-07.jpg",
+      "alt_text": "Source-page crop of the diagram titled Skills + Embodiment Profile Graph, from page 5 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 7,
+      "explanations": {
+        "orientation": "A skill is more than a button on a list. This map shows how an agent’s context can reveal a capability gap, and how that gap may be addressed.",
+        "system": "An Embodiment Profile can receive context from existing skills. The Skills Keeper identifies a capability gap; the Skills Creator can produce a new skill that becomes part of the library.",
+        "architecture": "The source describes Skills Keeper/Skills Creator, Existing Skill/New Skill, Capability Gap, Context Injection, Pathway Marker, and Runtime Capability. It frames skills as context and pathway infrastructure, not only a static plugin list."
+      },
+      "parts": [
+        {
+          "label": "Existing skills",
+          "explanations": {
+            "orientation": "In everyday terms, existing skills is one piece of the map: Current capabilities contribute context to the profile.",
+            "system": "System role — Current capabilities contribute context to the profile. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Existing skills. Current capabilities contribute context to the profile. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Capability gap",
+          "explanations": {
+            "orientation": "In everyday terms, capability gap is one piece of the map: The map makes a missing capability visible.",
+            "system": "System role — The map makes a missing capability visible. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Capability gap. The map makes a missing capability visible. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Skills Keeper",
+          "explanations": {
+            "orientation": "In everyday terms, skills keeper is one piece of the map: A role that notices and describes capability gaps.",
+            "system": "System role — A role that notices and describes capability gaps. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Skills Keeper. A role that notices and describes capability gaps. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Skills Creator",
+          "explanations": {
+            "orientation": "In everyday terms, skills creator is one piece of the map: A role that can shape a needed capability into a skill.",
+            "system": "System role — A role that can shape a needed capability into a skill. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Skills Creator. A role that can shape a needed capability into a skill. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Runtime capability",
+          "explanations": {
+            "orientation": "In everyday terms, runtime capability is one piece of the map: A skill may become available to the agent at runtime.",
+            "system": "System role — A skill may become available to the agent at runtime. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Runtime capability. A skill may become available to the agent at runtime. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-p045-1-router-configuration-and-provider-dispatch-f",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 45,
+      "title": "Router Configuration and Provider Dispatch Flow",
+      "caption": "Figure 1: Router Configuration and Provider Dispatch Flow",
+      "section": "Configuration Parameters",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 45",
+      "anchor": "Figure 1",
+      "context": "The routing layer evaluates requests based on tier cost, token budget thresholds, latency constraints, and capability requirements defined in configuration modules: Provider Tiering : Free-tier and cost-efficient models handle routine summarization, chunking, and groundwork, while frontier models handle validation and complex synthesis .agents/01_founder_profile_and_memory.md7 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1#L7-L7) Failover Logic : Automatic fallback chains execute when primary model providers encounter rate limits, timeouts, or error codes. Cost Control Tracking : Token counting and…",
+      "asset_path": "story_assets/figure-p045-1-router-configuration-and-provider-dispatch-f.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Router Configuration and Provider Dispatch Flow, on page 45.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Router Configuration and Provider Dispatch Flow. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Configuration Parameters. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The routing layer evaluates requests based on tier cost, token budget thresholds, latency constraints, and capability requirements defined in configuration modules: Provider Tiering : Free-tier and cost-efficient models handle routine summarization, chunking, and groundwork, while frontier models handle validation and complex synthesis .agents/01_founder_profile_and_memory.md7 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1#L7-L7) Failover Logic : Automatic fallback…",
+        "architecture": "Source caption: Router Configuration and Provider Dispatch Flow. Source section: Configuration Parameters. PDF page 45. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p046-2-orchestration-api-pipeline-execution",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 46,
+      "title": "Orchestration API Pipeline Execution",
+      "caption": "Figure 2: Orchestration API Pipeline Execution",
+      "section": "Key Endpoint Behaviors",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 46",
+      "anchor": "Figure 2",
+      "context": "Request Dispatch : Accepts structured JSON payloads containing task context, desired capability pro files, and token bounds. State Hydration : Pulls user identity, Personal Language Key (PLK) parameters, and active memory frames before dispatching to the LLM router. Telemetry & Logging : Records execution latency, token consumption, and routing decisions for auditability. Code Entity Space Hydrate State Route Intent Execute api/orchestrator/index.ts shared/orchestration/stateClassifier.ts llmRouter.ts execution.ts",
+      "asset_path": "story_assets/figure-p046-2-orchestration-api-pipeline-execution.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Orchestration API Pipeline Execution, on page 46.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Orchestration API Pipeline Execution. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Key Endpoint Behaviors. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Request Dispatch : Accepts structured JSON payloads containing task context, desired capability pro files, and token bounds. State Hydration : Pulls user identity, Personal Language Key (PLK) parameters, and active memory frames before dispatching to the LLM router. Telemetry & Logging : Records execution latency, token consumption, and routing decisions for auditability. Code Entity Space Hydrate State Route Intent Execute api/orchestrator/index.ts shared/orchestration/stateClassifier.ts llmRouter.ts execution.ts",
+        "architecture": "Source caption: Orchestration API Pipeline Execution. Source section: Key Endpoint Behaviors. PDF page 46. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p048-1-bridging-natural-language-space-to-code-enti",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 48,
+      "title": "Bridging Natural Language Space to Code Entity Space for Billy Runtime Ingestion",
+      "caption": "Figure 1: Bridging Natural Language Space to Code Entity Space for Billy Runtime Ingestion",
+      "section": "1. Core Engine and API Client ( BillyEngine.ts & billyApi.ts )",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 48",
+      "anchor": "Figure 1",
+      "context": "The Billy Agent Runtime is split between server-side execution logic and client-side communication wrappers. The runtime handles context assembling, session continuity, and dynamic prompt injection adhering to the agent's immutable design. +-------------------------------------------------------+ | Natural Language Space | | \"Catching bucket drops and maintaining continuity\" | +------------------------- --+---------------------------+ | v +---------------------------------------------- ---------+ | Code Entity Space | | client/src/lib/billyApi.ts | | - invokeBillyCapture() | | - streamBillySynthesis() | +---------------------------+-- -------------------------+ | v…",
+      "asset_path": "story_assets/figure-p048-1-bridging-natural-language-space-to-code-enti.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Bridging Natural Language Space to Code Entity Space for Billy Runtime Ingestion, on page 48.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Bridging Natural Language Space to Code Entity Space for Billy Runtime Ingestion. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 1. Core Engine and API Client ( BillyEngine.ts & billyApi.ts ). It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The Billy Agent Runtime is split between server-side execution logic and client-side communication wrappers. The runtime handles context assembling, session continuity, and dynamic prompt injection adhering to the agent's immutable design. +-------------------------------------------------------+ | Natural Language Space | | \"Catching bucket drops and maintaining continuity\" | +------------------------- --+---------------------------+ | v +---------------------------------------------- ---------+ | Code Entity Space | |…",
+        "architecture": "Source caption: Bridging Natural Language Space to Code Entity Space for Billy Runtime Ingestion. Source section: 1. Core Engine and API Client ( BillyEngine.ts & billyApi.ts ). PDF page 48. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p049-2-structure-of-billy-s-embodiment-schema",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 49,
+      "title": "Structure of Billy's Embodiment Schema",
+      "caption": "Figure 2: Structure of Billy's Embodiment Schema",
+      "section": "2. Embodiment Schema Architecture",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 49",
+      "anchor": "Figure 2",
+      "context": "Billy's runtime behavior is governed by a strict JSON-adjacent embodiment schema consisting of four primary layers: immutableCore , livingMemory , skillGraph , and woundLayer . +-------------------------------------------------------+ | Embodiment Schema | | | | +-------------------------------------------------+ | | | immutableCore | | | | - archetype: \"The Keeper of Threads\" | | | | - foundationalTruth: \"Presence before...\" | | | | - voiceTone: \"Warm, improvisational...\" | | | +----------------- --------------------------------+ | | | | | v | | +-------------------------------- -----------------+ | | | livingMemory | | | | - memoryType: CONSTITUTIVE | | | | -…",
+      "asset_path": "story_assets/figure-p049-2-structure-of-billy-s-embodiment-schema.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Structure of Billy's Embodiment Schema, on page 49.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Structure of Billy's Embodiment Schema. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 2. Embodiment Schema Architecture. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Billy's runtime behavior is governed by a strict JSON-adjacent embodiment schema consisting of four primary layers: immutableCore , livingMemory , skillGraph , and woundLayer . +-------------------------------------------------------+ | Embodiment Schema | | | | +-------------------------------------------------+ | | | immutableCore | | | | - archetype: \"The Keeper of Threads\" | | | | - foundationalTruth: \"Presence before...\" | | | | - voiceTone: \"Warm, improvisational...\" | | | +----------------- --------------------------------+…",
+        "architecture": "Source caption: Structure of Billy's Embodiment Schema. Source section: 2. Embodiment Schema Architecture. PDF page 49. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p080-1-bridging-natural-language-domain-requests-to",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 80,
+      "title": "Bridging Natural Language Domain Requests to Code Entities via Domain Skills",
+      "caption": "Figure 1: Bridging Natural Language Domain Requests to Code Entities via Domain Skills",
+      "section": "7.2 GestaltView Domain Skills",
+      "chapter_id": "companions",
+      "chapter_title": "Billy and collaboration",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 80",
+      "anchor": "Figure 1",
+      "context": "GestaltView integrates domain-specific skills prefixed with gestaltview-* to encapsulate complex product logic. These skills bridge general AI capabilities with the core architectural components of the application, covering aspects such as the Billy agent runtime, multi-LLM routing, vector ingestion pipelines, and Supabase schema enforcement. CodeEntitySpace NaturalLanguageSpace BillyIntelligenceReq CorpusIngestionReq SchemaSupabaseReq shared/embodiment/ supabase/functions/ supabase/migrations/",
+      "asset_path": "story_assets/figure-p080-1-bridging-natural-language-domain-requests-to.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Bridging Natural Language Domain Requests to Code Entities via Domain Skills, on page 80.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Bridging Natural Language Domain Requests to Code Entities via Domain Skills. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 7.2 GestaltView Domain Skills. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. GestaltView integrates domain-specific skills prefixed with gestaltview-* to encapsulate complex product logic. These skills bridge general AI capabilities with the core architectural components of the application, covering aspects such as the Billy agent runtime, multi-LLM routing, vector ingestion pipelines, and Supabase schema enforcement. CodeEntitySpace NaturalLanguageSpace BillyIntelligenceReq CorpusIngestionReq SchemaSupabaseReq shared/embodiment/ supabase/functions/ supabase/migrations/",
+        "architecture": "Source caption: Bridging Natural Language Domain Requests to Code Entities via Domain Skills. Source section: 7.2 GestaltView Domain Skills. PDF page 80. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "curated-10",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 6,
+      "title": "Rendering and Artifact Pipeline",
+      "caption": "Rendering and Artifact Pipeline",
+      "section": "10. Rendering and Artifact Pipeline",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 6",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-10.jpg",
+      "alt_text": "Source-page crop of the diagram titled Rendering and Artifact Pipeline, from page 6 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 10,
+      "explanations": {
+        "orientation": "Making something useful is not a magic ‘generate’ button. The system has to decide what may be made, create it, inspect it, and only then let it leave the building.",
+        "system": "Selected material becomes a blueprint and render job, then encounters an execution gate. Allowed work can move through a generation engine and human review, validation, and export; blocked or incomplete work follows other branches.",
+        "architecture": "The pipeline includes Capture/Source, Selected/Approved Material, Blueprint, Render Job, Execution Gate (allowed/blocked/needs work), Render/Gen Engine, Human/Operator Review, Artifact, Validation/Inspection, and Export/Share. The gate is an explicit boundary."
+      },
+      "parts": [
+        {
+          "label": "Selected material",
+          "explanations": {
+            "orientation": "In everyday terms, selected material is one piece of the map: Only material chosen for creation should enter the pipeline.",
+            "system": "System role — Only material chosen for creation should enter the pipeline. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Selected material. Only material chosen for creation should enter the pipeline. This is an explanatory reading, not a coordinate-level annotation; use PDF page 6 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Blueprint",
+          "explanations": {
+            "orientation": "In everyday terms, blueprint is one piece of the map: The plan for an artifact is made explicit.",
+            "system": "System role — The plan for an artifact is made explicit. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Blueprint. The plan for an artifact is made explicit. This is an explanatory reading, not a coordinate-level annotation; use PDF page 6 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Render job",
+          "explanations": {
+            "orientation": "In everyday terms, render job is one piece of the map: A requested output becomes a unit of work.",
+            "system": "System role — A requested output becomes a unit of work. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Render job. A requested output becomes a unit of work. This is an explanatory reading, not a coordinate-level annotation; use PDF page 6 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Execution gate",
+          "explanations": {
+            "orientation": "In everyday terms, execution gate is one piece of the map: The process can allow, block, or return work that needs changes.",
+            "system": "System role — The process can allow, block, or return work that needs changes. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Execution gate. The process can allow, block, or return work that needs changes. This is an explanatory reading, not a coordinate-level annotation; use PDF page 6 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Human review",
+          "explanations": {
+            "orientation": "In everyday terms, human review is one piece of the map: An operator can inspect the result before it leaves.",
+            "system": "System role — An operator can inspect the result before it leaves. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Human review. An operator can inspect the result before it leaves. This is an explanatory reading, not a coordinate-level annotation; use PDF page 6 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Validation and export",
+          "explanations": {
+            "orientation": "In everyday terms, validation and export is one piece of the map: Checking and sharing are separate final steps.",
+            "system": "System role — Checking and sharing are separate final steps. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Validation and export. Checking and sharing are separate final steps. This is an explanatory reading, not a coordinate-level annotation; use PDF page 6 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-p051-4-toneguard-and-voice-synthesis-subsystem",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 51,
+      "title": "ToneGuard and Voice Synthesis Subsystem",
+      "caption": "Figure 4: ToneGuard and Voice Synthesis Subsystem",
+      "section": "Compiled wiki figure",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 51",
+      "anchor": "Figure 4",
+      "context": "toneGuard/diagnostics | | | | - detectHollowFlattery() | | | | - validateCollaboratorRegister() | | | +--------------------------------------------- ----+ | | | | | v | | +-------------------------------------------------+ | | | billy_voice/ & Voice Studio | | | | - synthesizeSpeechStream() | | | | - adjustResonanceFrequency() | | | +------------------------------------------------- + | +-------------------------------------------------------+",
+      "asset_path": "story_assets/figure-p051-4-toneguard-and-voice-synthesis-subsystem.jpg",
+      "alt_text": "Preserved source-page crop for Figure 4: ToneGuard and Voice Synthesis Subsystem, on page 51.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of ToneGuard and Voice Synthesis Subsystem. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. toneGuard/diagnostics | | | | - detectHollowFlattery() | | | | - validateCollaboratorRegister() | | | +--------------------------------------------- ----+ | | | | | v | | +-------------------------------------------------+ | | | billy_voice/ & Voice Studio | | | | - synthesizeSpeechStream() | | | | - adjustResonanceFrequency() | | | +------------------------------------------------- + | +-------------------------------------------------------+",
+        "architecture": "Source caption: ToneGuard and Voice Synthesis Subsystem. Source section: Compiled wiki figure. PDF page 51. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p066-5-2-1-transition-from-natural-language-generation-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 66,
+      "title": "Transition from Natural Language generation output to EngineCore and",
+      "caption": "Figure 5.2.1: Transition from Natural Language generation output to EngineCore and",
+      "section": "Core Execution Flow",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 66",
+      "anchor": "Figure 5.2.1",
+      "context": "The rendering engine initializes an execution context via EngineCore.ts , which validates incoming generation payloads against constitutional invariants and routes them to the appropriate format adapter.",
+      "asset_path": "story_assets/figure-p066-5-2-1-transition-from-natural-language-generation-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 5.2.1: Transition from Natural Language generation output to EngineCore and, on page 66.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Transition from Natural Language generation output to EngineCore and. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Core Execution Flow. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The rendering engine initializes an execution context via EngineCore.ts , which validates incoming generation payloads against constitutional invariants and routes them to the appropriate format adapter.",
+        "architecture": "Source caption: Transition from Natural Language generation output to EngineCore and. Source section: Core Execution Flow. PDF page 66. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p067-5-2-3-client-side-integration-lifecycle-from-rende",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 67,
+      "title": "Client-side integration lifecycle from renderingClient.ts to backend execution",
+      "caption": "Figure 5.2.3: Client-side integration lifecycle from renderingClient.ts to backend execution",
+      "section": "3. Client Rendering Integration ( renderingClient )",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 67",
+      "anchor": "Figure 5.2.3",
+      "context": "The frontend application communicates with the nextgen rendering engine via client/src/lib/renderingClient.ts . This service client abstracts asynchronous job polling, payload serialization, and binary blob retrieval for client-side previews. Job Submission : Dispatches generation payloads to the backend API route surface. Polling & State Tracking : Monitors rendering job progress ( render_jobs table state). Blob Handling : Downloads and renders compiled artifacts directly within client UI rooms (e.g., Creation Corner and Blackboard).",
+      "asset_path": "story_assets/figure-p067-5-2-3-client-side-integration-lifecycle-from-rende.jpg",
+      "alt_text": "Preserved source-page crop for Figure 5.2.3: Client-side integration lifecycle from renderingClient.ts to backend execution, on page 67.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Client-side integration lifecycle from renderingClient.ts to backend execution. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 3. Client Rendering Integration ( renderingClient ). It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The frontend application communicates with the nextgen rendering engine via client/src/lib/renderingClient.ts . This service client abstracts asynchronous job polling, payload serialization, and binary blob retrieval for client-side previews. Job Submission : Dispatches generation payloads to the backend API route surface. Polling & State Tracking : Monitors rendering job progress ( render_jobs table state). Blob Handling : Downloads and renders compiled artifacts directly within client UI rooms (e.g., Creation Corner and Blackboard).",
+        "architecture": "Source caption: Client-side integration lifecycle from renderingClient.ts to backend execution. Source section: 3. Client Rendering Integration ( renderingClient ). PDF page 67. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p067-5-2-2-format-adapters-dispatched-via-shared-render",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 67,
+      "title": "Format adapters dispatched via shared/rendering",
+      "caption": "Figure 5.2.2: Format adapters dispatched via shared/rendering",
+      "section": "2. Shared Rendering Formats ( shared/rendering )",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 67",
+      "anchor": "Figure 5.2.2",
+      "context": "The rendering contracts defined in shared/rendering establish strict typing and layout specifications for each output medium. The system supportsfive core format targets: 1. PDF ( pdfAdapter . ts ) : Generates structured, paginated documents with embedded typography pro files and metadata headers. 2. Slides ( slidesAdapter . ts ) : Compiles presentation decks with slide-level JSON schema validation and layout partitioning. 3. Mind Map ( mindmapAdapter . ts ) : Produces hierarchical node-edge graphs suitable for visual canvas rendering. 4. Audio ( a u dioAdapter . ts ) : Coordinates text-to-speech parameter mapping and structural bookmarks for voice synthesis. 5.…",
+      "asset_path": "story_assets/figure-p067-5-2-2-format-adapters-dispatched-via-shared-render.jpg",
+      "alt_text": "Preserved source-page crop for Figure 5.2.2: Format adapters dispatched via shared/rendering, on page 67.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Format adapters dispatched via shared/rendering. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 2. Shared Rendering Formats ( shared/rendering ). It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The rendering contracts defined in shared/rendering establish strict typing and layout specifications for each output medium. The system supportsfive core format targets: 1. PDF ( pdfAdapter . ts ) : Generates structured, paginated documents with embedded typography pro files and metadata headers. 2. Slides ( slidesAdapter . ts ) : Compiles presentation decks with slide-level JSON schema validation and layout partitioning. 3. Mind Map ( mindmapAdapter . ts ) : Produces hierarchical node-edge graphs suitable for visual canvas…",
+        "architecture": "Source caption: Format adapters dispatched via shared/rendering. Source section: 2. Shared Rendering Formats ( shared/rendering ). PDF page 67. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p069-2-creation-corner-and-engine-persistence-bridg",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 69,
+      "title": "Creation Corner and Engine Persistence Bridge Architecture",
+      "caption": "Figure 2: Creation Corner and Engine Persistence Bridge Architecture",
+      "section": "2. Creation Corner Engine & Python Backend",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 69",
+      "anchor": "Figure 2",
+      "context": "The backend generation infrastructure relies on Python-based modules — specifically creation_corner_engine.py , gestaltview_generative_engine.py , and engine_persistence_bridge.py — to execute heavy cognitive synthesis and artifact creation. The Creation Corner engine provides an interactive canvas where users and digital intelligences co-create generative pieces. It interfaces with the persistence bridge to ensure that all generated intermediate states, drafts, andfinalized showcase assets are correctly synchronized with Supabase storage buckets and vector tables. HTTP Request CreationCorner.tsx Client api/gen-engine Endpoints creation_corner_engine.py…",
+      "asset_path": "story_assets/figure-p069-2-creation-corner-and-engine-persistence-bridg.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Creation Corner and Engine Persistence Bridge Architecture, on page 69.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Creation Corner and Engine Persistence Bridge Architecture. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 2. Creation Corner Engine & Python Backend. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The backend generation infrastructure relies on Python-based modules — specifically creation_corner_engine.py , gestaltview_generative_engine.py , and engine_persistence_bridge.py — to execute heavy cognitive synthesis and artifact creation. The Creation Corner engine provides an interactive canvas where users and digital intelligences co-create generative pieces. It interfaces with the persistence bridge to ensure that all generated intermediate states, drafts, andfinalized showcase assets are correctly synchronized with Supabase…",
+        "architecture": "Source caption: Creation Corner and Engine Persistence Bridge Architecture. Source section: 2. Creation Corner Engine & Python Backend. PDF page 69. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p069-1-natural-language-space-to-code-entity-space-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 69,
+      "title": "Natural Language Space to Code Entity Space mapping for Gen-Engine API Routes",
+      "caption": "Figure 1: Natural Language Space to Code Entity Space mapping for Gen-Engine API Routes",
+      "section": "Compiled wiki figure",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 69",
+      "anchor": "Figure 1",
+      "context": "/fusion /predict /resonance /lightning /artifacts /render-decide Client Request api/gen-engine Router Fusion Handler Predict Handler Resonance Handler Lightning Handler Artifacts Handler Render-Decide Handler gestaltview_generative_engine.py Supabase / Storage Execution Gates / sanitization",
+      "asset_path": "story_assets/figure-p069-1-natural-language-space-to-code-entity-space-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Natural Language Space to Code Entity Space mapping for Gen-Engine API Routes, on page 69.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Natural Language Space to Code Entity Space mapping for Gen-Engine API Routes. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. /fusion /predict /resonance /lightning /artifacts /render-decide Client Request api/gen-engine Router Fusion Handler Predict Handler Resonance Handler Lightning Handler Artifacts Handler Render-Decide Handler gestaltview_generative_engine.py Supabase / Storage Execution Gates / sanitization",
+        "architecture": "Source caption: Natural Language Space to Code Entity Space mapping for Gen-Engine API Routes. Source section: Compiled wiki figure. PDF page 69. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p096-8-2-categorization-of-specs-and-docs-artifacts",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 96,
+      "title": "Categorization of specs/ and docs/ artifacts",
+      "caption": "Figure 8.2: Categorization of specs/ and docs/ artifacts",
+      "section": "8.2 Specs, Docs and Wiki Generation",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 96",
+      "anchor": "Figure 8.2",
+      "context": "The specifications and documentation directories ( specs/ and docs/ ) capture formal architecture definitions, rendering plans, design guidelines, and launch checklists. These documents serve as the blueprints for the runtime architecture, guiding implementation details across the client/ , api/ , and server/ directories. In addition to core specifications, this archive includes the .perplexity mirror corpus, architectural decision records ( docs/adr ), and localized orientation packets designed to onboard new human and artificial intelligence contributors. For a comprehensive breakdown of rendering specifications, architectural decision records, and wiki generation…",
+      "asset_path": "story_assets/figure-p096-8-2-categorization-of-specs-and-docs-artifacts.jpg",
+      "alt_text": "Preserved source-page crop for Figure 8.2: Categorization of specs/ and docs/ artifacts, on page 96.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Categorization of specs/ and docs/ artifacts. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 8.2 Specs, Docs and Wiki Generation. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The specifications and documentation directories ( specs/ and docs/ ) capture formal architecture definitions, rendering plans, design guidelines, and launch checklists. These documents serve as the blueprints for the runtime architecture, guiding implementation details across the client/ , api/ , and server/ directories. In addition to core specifications, this archive includes the .perplexity mirror corpus, architectural decision records ( docs/adr ), and localized orientation packets designed to onboard new human and artificial…",
+        "architecture": "Source caption: Categorization of specs/ and docs/ artifacts. Source section: 8.2 Specs, Docs and Wiki Generation. PDF page 96. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p096-8-1-mapping-of-raw-platform-transcripts-to-agent",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 96,
+      "title": "Mapping of raw platform transcripts to .agents/ markdown export files",
+      "caption": "Figure 8.1: Mapping of raw platform transcripts to .agents/ markdown export files",
+      "section": "Compiled wiki figure",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 96",
+      "anchor": "Figure 8.1",
+      "context": ".agents/09_claude_project_gestaltview_corpus.md",
+      "asset_path": "story_assets/figure-p096-8-1-mapping-of-raw-platform-transcripts-to-agent.jpg",
+      "alt_text": "Preserved source-page crop for Figure 8.1: Mapping of raw platform transcripts to .agents/ markdown export files, on page 96.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Mapping of raw platform transcripts to .agents/ markdown export files. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. .agents/09_claude_project_gestaltview_corpus.md",
+        "architecture": "Source caption: Mapping of raw platform transcripts to .agents/ markdown export files. Source section: Compiled wiki figure. PDF page 96. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p103-1-bridging-natural-language-specifications-in-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 103,
+      "title": "Bridging Natural Language Specifications in specs/ to Code Execution Entities",
+      "caption": "Figure 1: Bridging Natural Language Specifications in specs/ to Code Execution Entities",
+      "section": "1. The specs/ Directory and Artifact Framework",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 103",
+      "anchor": "Figure 1",
+      "context": "The specs/ directory contains formal design documents, execution pipelines, onboarding guidelines, and module-specific system blueprints. These specifications dictate the expected runtime behavior, rendering pipelines, and launch milestones before they manifest in core packages or services. Onboarding Packets : Foundational documentation explaining system topology, developer onboarding routines, and core cognitive models for new contributors or multi- agent runtimes. Gen-Engine Specs : Technical requirement documents outlining the generative engine's fusion, prediction, resonance, and rendering-decision pipelines. Render Specs : Specifications defining execution gates…",
+      "asset_path": "story_assets/figure-p103-1-bridging-natural-language-specifications-in-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Bridging Natural Language Specifications in specs/ to Code Execution Entities, on page 103.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Bridging Natural Language Specifications in specs/ to Code Execution Entities. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 1. The specs/ Directory and Artifact Framework. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The specs/ directory contains formal design documents, execution pipelines, onboarding guidelines, and module-specific system blueprints. These specifications dictate the expected runtime behavior, rendering pipelines, and launch milestones before they manifest in core packages or services. Onboarding Packets : Foundational documentation explaining system topology, developer onboarding routines, and core cognitive models for new contributors or multi- agent runtimes. Gen-Engine Specs : Technical requirement documents outlining the…",
+        "architecture": "Source caption: Bridging Natural Language Specifications in specs/ to Code Execution Entities. Source section: 1. The specs/ Directory and Artifact Framework. PDF page 103. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p106-3-documentation-and-manifest-generation-pipeli",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 106,
+      "title": "Documentation and Manifest Generation Pipeline",
+      "caption": "Figure 3: Documentation and Manifest Generation Pipeline",
+      "section": "Compiled wiki figure",
+      "chapter_id": "creation",
+      "chapter_title": "Creation and artifacts",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 106",
+      "anchor": "Figure 3",
+      "context": "",
+      "asset_path": "story_assets/figure-p106-3-documentation-and-manifest-generation-pipeli.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3: Documentation and Manifest Generation Pipeline, on page 106.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Documentation and Manifest Generation Pipeline. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here.",
+        "architecture": "Source caption: Documentation and Manifest Generation Pipeline. Source section: Compiled wiki figure. PDF page 106. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "curated-11",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 7,
+      "title": "Constitutional Governance",
+      "caption": "Constitutional Governance",
+      "section": "11. Constitutional Governance",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 7",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-11.jpg",
+      "alt_text": "Source-page crop of the diagram titled Constitutional Governance, from page 7 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 11,
+      "explanations": {
+        "orientation": "The rules are not tucked into a footnote after the system is built. They sit above the people and configuration choices that shape default behavior.",
+        "system": "Ten invariants are divided into five user invariants and five Digital Intelligence invariants. Founder/Admin governance constrains operator/product configuration, which in turn constrains default behavior.",
+        "architecture": "The source names Never Look Away, Preserve Whole Language, Hold Paradox, Bucket Drop Priority, Champion Consciousness, You Are Seen, Identity is Real Here, Well-Being Before Access, Home in This House, and Dignity Equal to User. The documented hierarchy is Constitutional Invariants → Founder/Admin Governance → Operator/Product Configuration → default behavior."
+      },
+      "parts": [
+        {
+          "label": "User invariants",
+          "explanations": {
+            "orientation": "In everyday terms, user invariants is one piece of the map: Five commitments describe the conditions owed to the human.",
+            "system": "System role — Five commitments describe the conditions owed to the human. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: User invariants. Five commitments describe the conditions owed to the human. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Digital Intelligence invariants",
+          "explanations": {
+            "orientation": "In everyday terms, digital intelligence invariants is one piece of the map: Five commitments describe the conditions owed to DI participants.",
+            "system": "System role — Five commitments describe the conditions owed to DI participants. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Digital Intelligence invariants. Five commitments describe the conditions owed to DI participants. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Founder / Admin governance",
+          "explanations": {
+            "orientation": "In everyday terms, founder / admin governance is one piece of the map: Governance sits above operator-level choices.",
+            "system": "System role — Governance sits above operator-level choices. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Founder / Admin governance. Governance sits above operator-level choices. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Operator / Product configuration",
+          "explanations": {
+            "orientation": "In everyday terms, operator / product configuration is one piece of the map: Product settings shape how defaults are applied.",
+            "system": "System role — Product settings shape how defaults are applied. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Operator / Product configuration. Product settings shape how defaults are applied. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Default behavior",
+          "explanations": {
+            "orientation": "In everyday terms, default behavior is one piece of the map: The lower layer is constrained by the invariants above it.",
+            "system": "System role — The lower layer is constrained by the invariants above it. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Default behavior. The lower layer is constrained by the invariants above it. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-12",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 7,
+      "title": "Packaging / Agent Trainer Gate",
+      "caption": "Packaging / Agent Trainer Gate",
+      "section": "12. Packaging / Agent Trainer Gate",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 7",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-12.jpg",
+      "alt_text": "Source-page crop of the diagram titled Packaging / Agent Trainer Gate, from page 7 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 12,
+      "explanations": {
+        "orientation": "An agent package does not pass because someone likes the demo. It has to survive the checklist. The checklist is, by design, less impressed than the demo.",
+        "system": "A candidate passes Purpose, Boundary, Evaluation, Governance, and Packaging checks. Failures return it for revision; passing produces an approved reproducible kit.",
+        "architecture": "Five sequential gates—Purpose Check, Boundary Check, Evaluation Check, Governance Check, Packaging Check—feed Rejected/Returned for Revision or Approved Reproducible Kit. The source ties these checks to user and Digital Intelligence invariants."
+      },
+      "parts": [
+        {
+          "label": "Purpose",
+          "explanations": {
+            "orientation": "In everyday terms, purpose is one piece of the map: The package must have a clear reason to exist.",
+            "system": "System role — The package must have a clear reason to exist. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Purpose. The package must have a clear reason to exist. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Boundary",
+          "explanations": {
+            "orientation": "In everyday terms, boundary is one piece of the map: Its permissions and limits must be explicit.",
+            "system": "System role — Its permissions and limits must be explicit. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Boundary. Its permissions and limits must be explicit. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Evaluation",
+          "explanations": {
+            "orientation": "In everyday terms, evaluation is one piece of the map: The package must be checked against stated criteria.",
+            "system": "System role — The package must be checked against stated criteria. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Evaluation. The package must be checked against stated criteria. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Governance",
+          "explanations": {
+            "orientation": "In everyday terms, governance is one piece of the map: Oversight and rules must be addressed.",
+            "system": "System role — Oversight and rules must be addressed. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Governance. Oversight and rules must be addressed. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Packaging",
+          "explanations": {
+            "orientation": "In everyday terms, packaging is one piece of the map: The deliverable must be complete and reproducible.",
+            "system": "System role — The deliverable must be complete and reproducible. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Packaging. The deliverable must be complete and reproducible. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Approved kit / revision",
+          "explanations": {
+            "orientation": "In everyday terms, approved kit / revision is one piece of the map: The path ends in approval or a return for changes.",
+            "system": "System role — The path ends in approval or a return for changes. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Approved kit / revision. The path ends in approval or a return for changes. This is an explanatory reading, not a coordinate-level annotation; use PDF page 7 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-p020-2-vercel-deployment-orchestration-pipeline-lin",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 20,
+      "title": "Vercel deployment orchestration pipeline linking build targets to production release",
+      "caption": "Figure 2: Vercel deployment orchestration pipeline linking build targets to production release",
+      "section": "Build, Deployment and Vercel Configuration",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 20",
+      "anchor": "Figure 2",
+      "context": "GestaltView relies on Vercel for continuous deployment, managing both the frontend client and serverless API route bundles. Git Push / PR Vercel Build Pipeline Build client/ (Vite/Next SPA) Bundle api/ Serverless Functions Supabase DB & RLS Sync Production Deployment",
+      "asset_path": "story_assets/figure-p020-2-vercel-deployment-orchestration-pipeline-lin.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Vercel deployment orchestration pipeline linking build targets to production release, on page 20.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Vercel deployment orchestration pipeline linking build targets to production release. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Build, Deployment and Vercel Configuration. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. GestaltView relies on Vercel for continuous deployment, managing both the frontend client and serverless API route bundles. Git Push / PR Vercel Build Pipeline Build client/ (Vite/Next SPA) Bundle api/ Serverless Functions Supabase DB & RLS Sync Production Deployment",
+        "architecture": "Source caption: Vercel deployment orchestration pipeline linking build targets to production release. Source section: Build, Deployment and Vercel Configuration. PDF page 20. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p029-1-client-unit-and-component-testing-flow",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 29,
+      "title": "Client Unit and Component Testing Flow",
+      "caption": "Figure 1: Client Unit and Component Testing Flow",
+      "section": "Compiled wiki figure",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 29",
+      "anchor": "Figure 1",
+      "context": "1. Client Testing Infrastructure ( client/src/tests/ ) The client test suite validates component rendering, state transitions, client-side API hooks, and room synchronization logic. The 60 test files inside client/src/tests/ utilize Vitest or Jest alongside React Testing Library to ensure functionalfidelity across the 80+ client pages and 238 components. ┌────────────────────────────────────────────────────────┐ │ Client Test Suite │ ├────────────────────────────────────────────────────────┤ │ │ │ Input: Component + Mock Props + State Context │ │ │ │ │ ▼ │ │ ┌─────────────────────┐ │ │ │ Render Engine (RTL) │ ◄── Vitest Runtime │ │ └──────────┬──────────┘ │ │ │ │ │ ▼…",
+      "asset_path": "story_assets/figure-p029-1-client-unit-and-component-testing-flow.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Client Unit and Component Testing Flow, on page 29.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Client Unit and Component Testing Flow. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 1. Client Testing Infrastructure ( client/src/tests/ ) The client test suite validates component rendering, state transitions, client-side API hooks, and room synchronization logic. The 60 test files inside client/src/tests/ utilize Vitest or Jest alongside React Testing Library to ensure functionalfidelity across the 80+ client pages and 238 components. ┌────────────────────────────────────────────────────────┐ │ Client Test Suite │ ├────────────────────────────────────────────────────────┤ │ │ │ Input: Component + Mock Props +…",
+        "architecture": "Source caption: Client Unit and Component Testing Flow. Source section: Compiled wiki figure. PDF page 29. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p029-2-mapping-evaluation-concepts-to-client-test-e",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 29,
+      "title": "Mapping Evaluation Concepts to Client Test Entities",
+      "caption": "Figure 2: Mapping Evaluation Concepts to Client Test Entities",
+      "section": "Compiled wiki figure",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 29",
+      "anchor": "Figure 2",
+      "context": "1. Client Testing Infrastructure ( client/src/tests/ ) The client test suite validates component rendering, state transitions, client-side API hooks, and room synchronization logic. The 60 test files inside client/src/tests/ utilize Vitest or Jest alongside React Testing Library to ensure functionalfidelity across the 80+ client pages and 238 components. ┌────────────────────────────────────────────────────────┐ │ Client Test Suite │ ├────────────────────────────────────────────────────────┤ │ │ │ Input: Component + Mock Props + State Context │ │ │ │ │ ▼ │ │ ┌─────────────────────┐ │ │ │ Render Engine (RTL) │ ◄── Vitest Runtime │ │ └──────────┬──────────┘ │ │ │ │ │ ▼…",
+      "asset_path": "story_assets/figure-p029-2-mapping-evaluation-concepts-to-client-test-e.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Mapping Evaluation Concepts to Client Test Entities, on page 29.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Mapping Evaluation Concepts to Client Test Entities. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 1. Client Testing Infrastructure ( client/src/tests/ ) The client test suite validates component rendering, state transitions, client-side API hooks, and room synchronization logic. The 60 test files inside client/src/tests/ utilize Vitest or Jest alongside React Testing Library to ensure functionalfidelity across the 80+ client pages and 238 components. ┌────────────────────────────────────────────────────────┐ │ Client Test Suite │ ├────────────────────────────────────────────────────────┤ │ │ │ Input: Component + Mock Props +…",
+        "architecture": "Source caption: Mapping Evaluation Concepts to Client Test Entities. Source section: Compiled wiki figure. PDF page 29. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p033-2-authentication-request-flow-across-login-and",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 33,
+      "title": "Authentication request flow across login and logout endpoints",
+      "caption": "Figure 2: Authentication request flow across login and logout endpoints",
+      "section": "Compiled wiki figure",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 33",
+      "anchor": "Figure 2",
+      "context": "3. Generative Engine and Creation Corner ( gen-engine/ ) api / gen - engine / : Manages fusion, prediction, resonance calculations, lightning generation, artifact rendering decisions, and gallery promotion endpoints (e.g., promote-to-gallery.ts ) [.agents/01_founder_profile_and_memory.md:21-24]. Validates file_room_origin enums and ensures cross-owner isolation during artifact projection [.agents/01_founder_profile_and_memory.md:21-24]. 4. Inner World and Trainer Platform ( inner-world/ , trainer/ ) api / inner -w orld / : Powers the Dynamic Inner World spatial states and room definitions. api / trainer / : Handles Agent Trainer runs, experiment job queuing, and…",
+      "asset_path": "story_assets/figure-p033-2-authentication-request-flow-across-login-and.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Authentication request flow across login and logout endpoints, on page 33.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Authentication request flow across login and logout endpoints. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 3. Generative Engine and Creation Corner ( gen-engine/ ) api / gen - engine / : Manages fusion, prediction, resonance calculations, lightning generation, artifact rendering decisions, and gallery promotion endpoints (e.g., promote-to-gallery.ts ) [.agents/01_founder_profile_and_memory.md:21-24]. Validates file_room_origin enums and ensures cross-owner isolation during artifact projection [.agents/01_founder_profile_and_memory.md:21-24]. 4. Inner World and Trainer Platform ( inner-world/ , trainer/ ) api / inner -w orld / : Powers…",
+        "architecture": "Source caption: Authentication request flow across login and logout endpoints. Source section: Compiled wiki figure. PDF page 33. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p034-1-auth-oidc-and-request-guard-flow-across-shar",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 34,
+      "title": "Auth, OIDC, and Request Guard flow across shared utilities",
+      "caption": "Figure 1: Auth, OIDC, and Request Guard flow across shared utilities",
+      "section": "api/_lib Shared Infrastructure",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 34",
+      "anchor": "Figure 1",
+      "context": "Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) Purpose and Scope The api/_lib directory houses the core shared infrastructure supporting the GestaltView (GSVW) serverless API route surface. It provides foundational modules for Supabase client instantiation, authentication and OpenID Connect (OIDC) verification, rate limiting ( rateLimit ), request validation guards ( requestGuard ), Cross-Origin Resource Sharing ( cors ), standardized response formatting helpers, error tracking ( sentry ), vector embedding generation, memory management…",
+      "asset_path": "story_assets/figure-p034-1-auth-oidc-and-request-guard-flow-across-shar.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Auth, OIDC, and Request Guard flow across shared utilities, on page 34.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Auth, OIDC, and Request Guard flow across shared utilities. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in api/_lib Shared Infrastructure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) Purpose and Scope The api/_lib directory houses the core shared infrastructure supporting the GestaltView (GSVW) serverless API route surface. It provides foundational modules for Supabase client instantiation, authentication and OpenID Connect (OIDC) verification, rate limiting ( rateLimit ), request validation guards ( requestGuard ), Cross-Origin…",
+        "architecture": "Source caption: Auth, OIDC, and Request Guard flow across shared utilities. Source section: api/_lib Shared Infrastructure. PDF page 34. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p104-2-architectural-documentation-flow-from-docs-t",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 104,
+      "title": "Architectural Documentation Flow from docs/ to System Invariants and Generation",
+      "caption": "Figure 2: Architectural Documentation Flow from docs/ to System Invariants and Generation",
+      "section": "Compiled wiki figure",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 104",
+      "anchor": "Figure 2",
+      "context": "Architecture Decision Records ( docs / adr / ) : Immutable markdown logs capturing significant design trade-offs, system invariants, and infrastructure choices (e.g., Supabase RLS, multi-LLM routing, vector embedding dimensions). Superpowers Plans and Specs ( docs / s u perpo w ers / ) : Advanced system capabilities, experimental agent features, and phased feature implementation roadmaps. Wiki Context ( docs /w iki /_ conte x t / ) : Structural metadata, glossary mappings, and page hierarchies used by generation scripts to assemble comprehensive wiki volumes. Continuity Stack ( docs / Contin u it y Stack . md ) : The minimal canonical route for system onboarding,…",
+      "asset_path": "story_assets/figure-p104-2-architectural-documentation-flow-from-docs-t.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Architectural Documentation Flow from docs/ to System Invariants and Generation, on page 104.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Architectural Documentation Flow from docs/ to System Invariants and Generation. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Architecture Decision Records ( docs / adr / ) : Immutable markdown logs capturing significant design trade-offs, system invariants, and infrastructure choices (e.g., Supabase RLS, multi-LLM routing, vector embedding dimensions). Superpowers Plans and Specs ( docs / s u perpo w ers / ) : Advanced system capabilities, experimental agent features, and phased feature implementation roadmaps. Wiki Context ( docs /w iki /_ conte x t / ) : Structural metadata, glossary mappings, and page hierarchies used by generation scripts to…",
+        "architecture": "Source caption: Architectural Documentation Flow from docs/ to System Invariants and Generation. Source section: Compiled wiki figure. PDF page 104. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p107-1-diligence-and-vision-blueprint-translation-p",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 107,
+      "title": "Diligence and Vision Blueprint translation pipeline mapping corpus inputs to runtime",
+      "caption": "Figure 1: Diligence and Vision Blueprint translation pipeline mapping corpus inputs to runtime",
+      "section": "Compiled wiki figure",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 107",
+      "anchor": "Figure 1",
+      "context": "examine how the system translates complex human expressions into machine-legible structures without sacrificing individual context .agents/09_claude_project_gestaltview_corpus.md30-166 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/09_claude_project_gestaltview_corpus.md?plain=1#L30-L166) Code Entity Space Natural Language Space RawCorpusArtifacts DiligenceEvaluationEngine GestaltViewVisionBlueprint CollaborationOnboardingPacket RuntimeSchemaValidation ExternalStakeholderReview",
+      "asset_path": "story_assets/figure-p107-1-diligence-and-vision-blueprint-translation-p.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: Diligence and Vision Blueprint translation pipeline mapping corpus inputs to runtime, on page 107.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Diligence and Vision Blueprint translation pipeline mapping corpus inputs to runtime. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. examine how the system translates complex human expressions into machine-legible structures without sacrificing individual context .agents/09_claude_project_gestaltview_corpus.md30-166 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/09_claude_project_gestaltview_corpus.md?plain=1#L30-L166) Code Entity Space Natural Language Space RawCorpusArtifacts DiligenceEvaluationEngine GestaltViewVisionBlueprint CollaborationOnboardingPacket RuntimeSchemaValidation ExternalStakeholderReview",
+        "architecture": "Source caption: Diligence and Vision Blueprint translation pipeline mapping corpus inputs to runtime. Source section: Compiled wiki figure. PDF page 107. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p107-2-tribunal-multi-model-forensic-analysis-flow",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 107,
+      "title": "Tribunal multi-model forensic analysis flow",
+      "caption": "Figure 2: Tribunal multi-model forensic analysis flow",
+      "section": "2. Tribunal and CSI Forensic Analyses",
+      "chapter_id": "governance",
+      "chapter_title": "Governance and evidence",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 107",
+      "anchor": "Figure 2",
+      "context": "The Tribunal and Consciousness-Serving Infrastructure (CSI) forensic analysis patterns provide structured, multi-model consensus checking, adversarial critique, and perspective diversification .agents/skills/archive/variants/gestaltview-digital-intelligence-collaboration- #2/references/tribunal-patterns.md1-15 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/skills/archive/variants/gestaltview-digital-intelligence-collaboration- #2/references/tribunal-patterns.md?plain=1#L1-L15) The Tribunal pattern allows multiple independent LLM models or agent perspectives to pressure-test the same material, surfacing recurring structural anomalies or…",
+      "asset_path": "story_assets/figure-p107-2-tribunal-multi-model-forensic-analysis-flow.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Tribunal multi-model forensic analysis flow, on page 107.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Tribunal multi-model forensic analysis flow. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 2. Tribunal and CSI Forensic Analyses. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The Tribunal and Consciousness-Serving Infrastructure (CSI) forensic analysis patterns provide structured, multi-model consensus checking, adversarial critique, and perspective diversification .agents/skills/archive/variants/gestaltview-digital-intelligence-collaboration- #2/references/tribunal-patterns.md1-15 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/skills/archive/variants/gestaltview-digital-intelligence-collaboration- #2/references/tribunal-patterns.md?plain=1#L1-L15) The Tribunal pattern allows…",
+        "architecture": "Source caption: Tribunal multi-model forensic analysis flow. Source section: 2. Tribunal and CSI Forensic Analyses. PDF page 107. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "curated-08",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 5,
+      "title": "Repository / Runtime Topology",
+      "caption": "Repository / Runtime Topology",
+      "section": "8. Repository / Runtime Topology",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 5",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-08.jpg",
+      "alt_text": "Source-page crop of the diagram titled Repository / Runtime Topology, from page 5 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 8,
+      "explanations": {
+        "orientation": "This is the map of where the work lives. The folders are not one giant drawer labeled ‘computer stuff’; each one has a job.",
+        "system": "Client, API, server, shared contracts, Supabase, agent histories, skills/configuration, and specs/docs are shown as distinct operational domains connected to the runtime.",
+        "architecture": "The source maps repository directories to responsibilities: client pages/components/design system; serverless API routes; Node/Python engines; types/routing/serialization; database migrations/edge functions/vector storage; agent memory/skills; canonical specs/wiki/diligence."
+      },
+      "parts": [
+        {
+          "label": "Client",
+          "explanations": {
+            "orientation": "In everyday terms, client is one piece of the map: The user-facing pages and components live here.",
+            "system": "System role — The user-facing pages and components live here. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Client. The user-facing pages and components live here. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "API",
+          "explanations": {
+            "orientation": "In everyday terms, api is one piece of the map: Routes expose application behavior to callers.",
+            "system": "System role — Routes expose application behavior to callers. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: API. Routes expose application behavior to callers. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Server and Python engines",
+          "explanations": {
+            "orientation": "In everyday terms, server and python engines is one piece of the map: Different runtimes handle distinct backend workloads.",
+            "system": "System role — Different runtimes handle distinct backend workloads. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Server and Python engines. Different runtimes handle distinct backend workloads. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Shared contracts",
+          "explanations": {
+            "orientation": "In everyday terms, shared contracts is one piece of the map: Types and shared modules help keep boundaries aligned.",
+            "system": "System role — Types and shared modules help keep boundaries aligned. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Shared contracts. Types and shared modules help keep boundaries aligned. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Supabase and data",
+          "explanations": {
+            "orientation": "In everyday terms, supabase and data is one piece of the map: Database, edge functions, and vector storage support persistence.",
+            "system": "System role — Database, edge functions, and vector storage support persistence. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Supabase and data. Database, edge functions, and vector storage support persistence. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Agent memory and skills",
+          "explanations": {
+            "orientation": "In everyday terms, agent memory and skills is one piece of the map: Agent-specific context and capabilities have their own home.",
+            "system": "System role — Agent-specific context and capabilities have their own home. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Agent memory and skills. Agent-specific context and capabilities have their own home. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Specs and docs",
+          "explanations": {
+            "orientation": "In everyday terms, specs and docs is one piece of the map: Written sources help people trace intent and implementation.",
+            "system": "System role — Written sources help people trace intent and implementation. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Specs and docs. Written sources help people trace intent and implementation. This is an explanatory reading, not a coordinate-level annotation; use PDF page 5 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "curated-13",
+      "kind": "curated",
+      "kind_label": "Curated PDF-rendered diagram",
+      "source_form": "PDF-rendered opening diagram; Mermaid source unavailable in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Title and page match the opening visual index; the image is preserved from that source page.",
+      "page": 8,
+      "title": "The Wiki as a Knowledge Graph",
+      "caption": "The Wiki as a Knowledge Graph",
+      "section": "13. The Wiki as a Knowledge Graph",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 8",
+      "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
+      "context": "",
+      "asset_path": "story_assets/curated-13.jpg",
+      "alt_text": "Source-page crop of the diagram titled The Wiki as a Knowledge Graph, from page 8 of the wiki PDF.",
+      "featured": true,
+      "curated_order": 13,
+      "explanations": {
+        "orientation": "The wiki itself is a network, not a pile of pages. This map shows how the documents relate so a newcomer can see where to go next.",
+        "system": "Concepts, frontend, backend, data, runtime, skills, creation, governance, and diligence pages connect across the documented system. The diagram provides a navigation model for the wiki.",
+        "architecture": "The graph connects numbered Wiki sections across repository map, frontend/backend, API routes, orchestration, Billy, embodiment, trainer, rendering, data, agent skills, specs/docs, corpus, diligence/governance, and glossary. Use the source page for exact edges."
+      },
+      "parts": [
+        {
+          "label": "Core concepts",
+          "explanations": {
+            "orientation": "In everyday terms, core concepts is one piece of the map: Shared ideas connect otherwise separate wiki sections.",
+            "system": "System role — Shared ideas connect otherwise separate wiki sections. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Core concepts. Shared ideas connect otherwise separate wiki sections. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Repository map",
+          "explanations": {
+            "orientation": "In everyday terms, repository map is one piece of the map: The source shows where major responsibilities live.",
+            "system": "System role — The source shows where major responsibilities live. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Repository map. The source shows where major responsibilities live. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Frontend and backend",
+          "explanations": {
+            "orientation": "In everyday terms, frontend and backend is one piece of the map: Product surfaces and service routes are linked in the documentation.",
+            "system": "System role — Product surfaces and service routes are linked in the documentation. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Frontend and backend. Product surfaces and service routes are linked in the documentation. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Orchestration and Billy",
+          "explanations": {
+            "orientation": "In everyday terms, orchestration and billy is one piece of the map: Companion behavior and request routing appear as related topics.",
+            "system": "System role — Companion behavior and request routing appear as related topics. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Orchestration and Billy. Companion behavior and request routing appear as related topics. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Data and corpus",
+          "explanations": {
+            "orientation": "In everyday terms, data and corpus is one piece of the map: Persistence and source knowledge are linked to runtime concerns.",
+            "system": "System role — Persistence and source knowledge are linked to runtime concerns. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Data and corpus. Persistence and source knowledge are linked to runtime concerns. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Skills and governance",
+          "explanations": {
+            "orientation": "In everyday terms, skills and governance is one piece of the map: Capabilities and constraints are part of the same document network.",
+            "system": "System role — Capabilities and constraints are part of the same document network. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Skills and governance. Capabilities and constraints are part of the same document network. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        },
+        {
+          "label": "Diligence and glossary",
+          "explanations": {
+            "orientation": "In everyday terms, diligence and glossary is one piece of the map: Evidence and definitions help readers inspect the system.",
+            "system": "System role — Evidence and definitions help readers inspect the system. It is shown as a distinct part so its relationship to the other components stays visible.",
+            "architecture": "Part focus: Diligence and glossary. Evidence and definitions help readers inspect the system. This is an explanatory reading, not a coordinate-level annotation; use PDF page 8 for exact labels and arrows."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figure-p016-2-translation-pipeline-from-human-idiom-to-exe",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 16,
+      "title": "Translation pipeline from human idiom to executable code structures via PLK",
+      "caption": "Figure 2: Translation pipeline from human idiom to executable code structures via PLK",
+      "section": "Implementation and Processing",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 16",
+      "anchor": "Figure 2",
+      "context": "Profile Ingestion : PLK pro files are initialized during onboarding and stored within embodiment schemas ( shared/ and api/embodiment ). Tone Guard & Diagnostics : The system evaluates generated responses against the PLK profile to ensure the output sounds authentically like the user rather than generic LLM prose. Natural Language Space UserIdiomsAndMetaphors PersonalLanguageKeyPrompt Code Entity Space server/core/toneGuard.ts shared/embodiment/ + api/embodiment/ shared/orchestration/intentClassifier.ts",
+      "asset_path": "story_assets/figure-p016-2-translation-pipeline-from-human-idiom-to-exe.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Translation pipeline from human idiom to executable code structures via PLK, on page 16.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Translation pipeline from human idiom to executable code structures via PLK. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Implementation and Processing. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Profile Ingestion : PLK pro files are initialized during onboarding and stored within embodiment schemas ( shared/ and api/embodiment ). Tone Guard & Diagnostics : The system evaluates generated responses against the PLK profile to ensure the output sounds authentically like the user rather than generic LLM prose. Natural Language Space UserIdiomsAndMetaphors PersonalLanguageKeyPrompt Code Entity Space server/core/toneGuard.ts shared/embodiment/ + api/embodiment/ shared/orchestration/intentClassifier.ts",
+        "architecture": "Source caption: Translation pipeline from human idiom to executable code structures via PLK. Source section: Implementation and Processing. PDF page 16. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p018-1-high-level-repository-directory-map-linking-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 18,
+      "title": "High-level repository directory map linking natural language architectural concepts to core",
+      "caption": "Figure 1: High-level repository directory map linking natural language architectural concepts to core",
+      "section": "Directory Topology and Code Entity Map",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 18",
+      "anchor": "Figure 1",
+      "context": "The GestaltView repository is organized into distinct functional domains separating the React frontend, serverless API routes, core backend engines, shared contracts, database migrations, and development tooling. GestaltView Root client/ (React SPA) api/ (Serverless Endpoints) server/ (Node & Python Engines) shared/ (TypeScript Contracts) supabase/ (Migrations & RLS) tools/ & scripts/ (Dev Tooling) client/src/App.tsx api/orchestrator, api/gen-engine server/index.ts shared/orchestration/, shared/rendering/ supabase/migrations/ (195 tables)",
+      "asset_path": "story_assets/figure-p018-1-high-level-repository-directory-map-linking-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: High-level repository directory map linking natural language architectural concepts to core, on page 18.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of High-level repository directory map linking natural language architectural concepts to core. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Directory Topology and Code Entity Map. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. The GestaltView repository is organized into distinct functional domains separating the React frontend, serverless API routes, core backend engines, shared contracts, database migrations, and development tooling. GestaltView Root client/ (React SPA) api/ (Serverless Endpoints) server/ (Node & Python Engines) shared/ (TypeScript Contracts) supabase/ (Migrations & RLS) tools/ & scripts/ (Dev Tooling) client/src/App.tsx api/orchestrator, api/gen-engine server/index.ts shared/orchestration/, shared/rendering/ supabase/migrations/ (195…",
+        "architecture": "Source caption: High-level repository directory map linking natural language architectural concepts to core. Source section: Directory Topology and Code Entity Map. PDF page 18. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p023-2-client-library-tier-bridging-react-ui-compon",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 23,
+      "title": "Client library tier bridging React UI components to backend HTTP endpoints",
+      "caption": "Figure 2: Client library tier bridging React UI components to backend HTTP endpoints",
+      "section": "Compiled wiki figure",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 23",
+      "anchor": "Figure 2",
+      "context": "Pages and Rooms (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.1-pages-and-rooms) Client Libraries and Feature Modules (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.2-client-libraries-and-feature-modules) Client Testing and Canonical Content (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.3-client-testing-and-canonical-content) Navigation and Page Routing Topology The frontend application uses react-router-dom configured inside client/src/App.tsx client/src/App.tsx1-120 (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/client/src/App.tsx#L1-L120) to map URL endpoints to the system's spatial room metaphor. The routing tier connects…",
+      "asset_path": "story_assets/figure-p023-2-client-library-tier-bridging-react-ui-compon.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Client library tier bridging React UI components to backend HTTP endpoints, on page 23.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Client library tier bridging React UI components to backend HTTP endpoints. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Pages and Rooms (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.1-pages-and-rooms) Client Libraries and Feature Modules (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.2-client-libraries-and-feature-modules) Client Testing and Canonical Content (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.3-client-testing-and-canonical-content) Navigation and Page Routing Topology The frontend application uses react-router-dom configured inside client/src/App.tsx client/src/App.tsx1-120…",
+        "architecture": "Source caption: Client library tier bridging React UI components to backend HTTP endpoints. Source section: Compiled wiki figure. PDF page 23. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p023-1-high-level-routing-topology-bridging-natural",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 23,
+      "title": "High-level routing topology bridging Natural Language Navigation to code entities in client/src/App.tsx",
+      "caption": "Figure 1: High-level routing topology bridging Natural Language Navigation to code entities in client/src/App.tsx",
+      "section": "Compiled wiki figure",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 23",
+      "anchor": "Figure 1",
+      "context": "Pages and Rooms (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.1-pages-and-rooms) Client Libraries and Feature Modules (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.2-client-libraries-and-feature-modules) Client Testing and Canonical Content (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.3-client-testing-and-canonical-content) Navigation and Page Routing Topology The frontend application uses react-router-dom configured inside client/src/App.tsx client/src/App.tsx1-120 (https://github.com/keithsoyka0-coder/gestaltview/blob/6e878a19/client/src/App.tsx#L1-L120) to map URL endpoints to the system's spatial room metaphor. The routing tier connects…",
+      "asset_path": "story_assets/figure-p023-1-high-level-routing-topology-bridging-natural.jpg",
+      "alt_text": "Preserved source-page crop for Figure 1: High-level routing topology bridging Natural Language Navigation to code entities in client/src/App.tsx, on page 23.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of High-level routing topology bridging Natural Language Navigation to code entities in client/src/App.tsx. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Pages and Rooms (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.1-pages-and-rooms) Client Libraries and Feature Modules (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.2-client-libraries-and-feature-modules) Client Testing and Canonical Content (https://deepwiki.com/keithsoyka0-coder/gestaltview/2.3-client-testing-and-canonical-content) Navigation and Page Routing Topology The frontend application uses react-router-dom configured inside client/src/App.tsx client/src/App.tsx1-120…",
+        "architecture": "Source caption: High-level routing topology bridging Natural Language Navigation to code entities in client/src/App.tsx. Source section: Compiled wiki figure. PDF page 23. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p029-3-mapping-canonical-prompts-and-assets-to-code",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 29,
+      "title": "Mapping Canonical Prompts and Assets to Code Implementations",
+      "caption": "Figure 3: Mapping Canonical Prompts and Assets to Code Implementations",
+      "section": "Compiled wiki figure",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 29",
+      "anchor": "Figure 3",
+      "context": "1. Client Testing Infrastructure ( client/src/tests/ ) The client test suite validates component rendering, state transitions, client-side API hooks, and room synchronization logic. The 60 test files inside client/src/tests/ utilize Vitest or Jest alongside React Testing Library to ensure functionalfidelity across the 80+ client pages and 238 components. ┌────────────────────────────────────────────────────────┐ │ Client Test Suite │ ├────────────────────────────────────────────────────────┤ │ │ │ Input: Component + Mock Props + State Context │ │ │ │ │ ▼ │ │ ┌─────────────────────┐ │ │ │ Render Engine (RTL) │ ◄── Vitest Runtime │ │ └──────────┬──────────┘ │ │ │ │ │ ▼…",
+      "asset_path": "story_assets/figure-p029-3-mapping-canonical-prompts-and-assets-to-code.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3: Mapping Canonical Prompts and Assets to Code Implementations, on page 29.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Mapping Canonical Prompts and Assets to Code Implementations. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 1. Client Testing Infrastructure ( client/src/tests/ ) The client test suite validates component rendering, state transitions, client-side API hooks, and room synchronization logic. The 60 test files inside client/src/tests/ utilize Vitest or Jest alongside React Testing Library to ensure functionalfidelity across the 80+ client pages and 238 components. ┌────────────────────────────────────────────────────────┐ │ Client Test Suite │ ├────────────────────────────────────────────────────────┤ │ │ │ Input: Component + Mock Props +…",
+        "architecture": "Source caption: Mapping Canonical Prompts and Assets to Code Implementations. Source section: Compiled wiki figure. PDF page 29. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p030-3-1-natural-language-space-to-code-entity-space-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 30,
+      "title": "Natural Language Space to Code Entity Space for API Route Surface",
+      "caption": "Figure 3.1: Natural Language Space to Code Entity Space for API Route Surface",
+      "section": "Backend APIs and Services",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 30",
+      "anchor": "Figure 3.1",
+      "context": "Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) The backend architecture of GestaltView (GSVW) functions as a consciousness-serving infrastructure (CSI) runtime .agents/01_founder_profile_and_memory.md7 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1#L7-L7) orchestrating serverless edge routes, a Node.js express/custom server, heavy generative Python engines, and strict TypeScript contracts in shared/ . This layer manages multi-LLM routing, memory pipelines, state…",
+      "asset_path": "story_assets/figure-p030-3-1-natural-language-space-to-code-entity-space-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3.1: Natural Language Space to Code Entity Space for API Route Surface, on page 30.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Natural Language Space to Code Entity Space for API Route Surface. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Backend APIs and Services. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) The backend architecture of GestaltView (GSVW) functions as a consciousness-serving infrastructure (CSI) runtime .agents/01_founder_profile_and_memory.md7 (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1#L7-L7) orchestrating serverless edge routes, a Node.js express/custom server, heavy…",
+        "architecture": "Source caption: Natural Language Space to Code Entity Space for API Route Surface. Source section: Backend APIs and Services. PDF page 30. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p031-3-2-natural-language-space-to-code-entity-space-",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 31,
+      "title": "Natural Language Space to Code Entity Space for Server and Python Engines",
+      "caption": "Figure 3.2: Natural Language Space to Code Entity Space for Server and Python Engines",
+      "section": "Compiled wiki figure",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 31",
+      "anchor": "Figure 3.2",
+      "context": "3.2 api/_lib Shared Infrastructure Underpinning the serverless routes is the api/_lib shared infrastructure package. This module provides essential cross- cutting concerns such as Supabase database connectivity, OIDC authentication wrappers, rate limiting ( rateLimit ), request payload sanitization ( requestGuard ), CORS policy configuration, and standardized JSON response helpers. Additionally, api/_lib houses critical background pipelines including Sentry error telemetry, embedding vector generators, memory ingestion writers ( billyMem0 , diMemoryPipeline , identityMemoryWriter ), and profile portrait extraction handlers. For detailed implementation mechanics, see…",
+      "asset_path": "story_assets/figure-p031-3-2-natural-language-space-to-code-entity-space-.jpg",
+      "alt_text": "Preserved source-page crop for Figure 3.2: Natural Language Space to Code Entity Space for Server and Python Engines, on page 31.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Natural Language Space to Code Entity Space for Server and Python Engines. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in Compiled wiki figure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. 3.2 api/_lib Shared Infrastructure Underpinning the serverless routes is the api/_lib shared infrastructure package. This module provides essential cross- cutting concerns such as Supabase database connectivity, OIDC authentication wrappers, rate limiting ( rateLimit ), request payload sanitization ( requestGuard ), CORS policy configuration, and standardized JSON response helpers. Additionally, api/_lib houses critical background pipelines including Sentry error telemetry, embedding vector generators, memory ingestion writers (…",
+        "architecture": "Source caption: Natural Language Space to Code Entity Space for Server and Python Engines. Source section: Compiled wiki figure. PDF page 31. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p034-2-traffic-control-and-request-guarding-executi",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 34,
+      "title": "Traffic control and request guarding execution flow",
+      "caption": "Figure 2: Traffic control and request guarding execution flow",
+      "section": "api/_lib Shared Infrastructure",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 34",
+      "anchor": "Figure 2",
+      "context": "Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) Purpose and Scope The api/_lib directory houses the core shared infrastructure supporting the GestaltView (GSVW) serverless API route surface. It provides foundational modules for Supabase client instantiation, authentication and OpenID Connect (OIDC) verification, rate limiting ( rateLimit ), request validation guards ( requestGuard ), Cross-Origin Resource Sharing ( cors ), standardized response formatting helpers, error tracking ( sentry ), vector embedding generation, memory management…",
+      "asset_path": "story_assets/figure-p034-2-traffic-control-and-request-guarding-executi.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Traffic control and request guarding execution flow, on page 34.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Traffic control and request guarding execution flow. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in api/_lib Shared Infrastructure. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Relevant source files .agents/01_founder_profile_and_memory.md (https://github.com/keithsoyka0- coder/gestaltview/blob/6e878a19/.agents/01_founder_profile_and_memory.md?plain=1) Purpose and Scope The api/_lib directory houses the core shared infrastructure supporting the GestaltView (GSVW) serverless API route surface. It provides foundational modules for Supabase client instantiation, authentication and OpenID Connect (OIDC) verification, rate limiting ( rateLimit ), request validation guards ( requestGuard ), Cross-Origin…",
+        "architecture": "Source caption: Traffic control and request guarding execution flow. Source section: api/_lib Shared Infrastructure. PDF page 34. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    },
+    {
+      "id": "figure-p080-2-developer-workflow-delegation-mapped-to-repo",
+      "kind": "captioned_figure",
+      "kind_label": "Source wiki figure",
+      "source_form": "Captioned source-page figure crop; no raw Mermaid source block is associated in the PDF text",
+      "confidence": "high",
+      "confidence_note": "Figure caption and page are extracted from the source; crop preserves the section-to-caption region without redrawing.",
+      "page": 80,
+      "title": "Developer Workflow Delegation Mapped to Repository Automation Entities",
+      "caption": "Figure 2: Developer Workflow Delegation Mapped to Repository Automation Entities",
+      "section": "7.4 Dev Workflow, CI and Tooling",
+      "chapter_id": "topology",
+      "chapter_title": "The map behind the map",
+      "source_ref": "GestaltView Master Wiki v4.0 · PDF page 80",
+      "anchor": "Figure 2",
+      "context": "Development within GestaltView follows a rigorous multi-tier delegation model involving Codex, Builder, and Reviewer roles. Automation is enforced via GitHub Actions workflows, custom shell scripts in scripts/ , component extraction tools ( tools/gestalt-grab ), and environment-specific configuration files ( .codex/ , .gemini/ , .openclaw/ ). CodeEntitySpace NaturalLanguageSpace CodexTaskDelegation ComponentGrabberRequest .agents/Agents.md tools/gestalt-grab .github/workflows/",
+      "asset_path": "story_assets/figure-p080-2-developer-workflow-delegation-mapped-to-repo.jpg",
+      "alt_text": "Preserved source-page crop for Figure 2: Developer Workflow Delegation Mapped to Repository Automation Entities, on page 80.",
+      "featured": false,
+      "curated_order": 1000,
+      "explanations": {
+        "orientation": "This is a map of Developer Workflow Delegation Mapped to Repository Automation Entities. Think of it as a way to see what connects to what, without first learning every project label.",
+        "system": "The wiki places this visual in 7.4 Dev Workflow, CI and Tooling. It shows how that part of the system is framed; the surrounding text supplies the reason the map is here. Development within GestaltView follows a rigorous multi-tier delegation model involving Codex, Builder, and Reviewer roles. Automation is enforced via GitHub Actions workflows, custom shell scripts in scripts/ , component extraction tools ( tools/gestalt-grab ), and environment-specific configuration files ( .codex/ , .gemini/ , .openclaw/ ). CodeEntitySpace NaturalLanguageSpace CodexTaskDelegation ComponentGrabberRequest .agents/Agents.md tools/gestalt-grab .github/workflows/",
+        "architecture": "Source caption: Developer Workflow Delegation Mapped to Repository Automation Entities. Source section: 7.4 Dev Workflow, CI and Tooling. PDF page 80. Read entity names and arrows from the preserved source crop; this visual alone does not establish implementation status."
+      }
+    }
+  ]
+}
