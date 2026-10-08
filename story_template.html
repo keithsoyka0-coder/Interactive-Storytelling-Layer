@@ -22,6 +22,9 @@
 <style>
 .part-explorer{border-top:1px solid var(--line);margin:2px 0 18px;padding:16px 0 0}.part-explorer h3{font-size:.88rem;margin:0 0 4px}.part-intro{color:var(--quiet);font-size:.76rem;margin:0 0 11px}.part-list{display:flex;flex-wrap:wrap;gap:7px}.part-button{border:1px solid var(--line);border-radius:999px;background:#0b1320;color:var(--muted);padding:7px 10px;font-size:.73rem;cursor:pointer}.part-button:hover,.part-button[aria-pressed="true"]{border-color:var(--cyan);color:var(--ink);background:rgba(18,214,255,.1)}.part-button:focus-visible{outline:2px solid var(--amber);outline-offset:3px}.part-detail{border-left:2px solid var(--amber);padding:8px 0 7px 12px;margin:13px 0 0;color:var(--muted);font-size:.82rem;line-height:1.6}.part-detail strong{display:block;color:var(--ink);font:.62rem var(--mono);letter-spacing:.07em;text-transform:uppercase;margin-bottom:3px}.part-detail p{margin:0}
 </style>
+<style>
+.status-tag{font:.62rem var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--amber);border:1px solid rgba(247,178,103,.36);background:rgba(247,178,103,.075);border-radius:999px;padding:4px 7px}.claim-corrections{border-top:1px solid var(--line);margin:24px 0 0;padding:18px 0 0}.claim-corrections h3{font-size:.9rem;margin:0 0 10px;color:var(--amber)}.claim-review{border-left:2px solid var(--amber);padding:10px 0 10px 14px;margin:12px 0;background:linear-gradient(90deg,rgba(247,178,103,.045),transparent)}.claim-review p{font-size:.82rem;line-height:1.6;color:var(--muted);margin:7px 0}.claim-review strong{color:var(--ink)}.claim-status{font:.62rem var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--amber)}.claim-source{font:.72rem var(--mono);color:var(--quiet);overflow-wrap:anywhere}.source-note a{color:var(--cyan);margin-right:10px}
+</style>
 </head>
 <body>
 <div class="shell">
@@ -34,14 +37,14 @@
     <section class="landing" id="landing" aria-labelledby="landing-title">
       <div class="eyebrow">The infrastructure for being seen</div>
       <h1 id="landing-title">A map for the parts of you <em>the internet forgot to file.</em></h1>
-      <p class="lede">GestaltView is a system for holding human context, continuity, and creation. This guide turns the wiki’s diagrams into entry points—without requiring you to read 116 pages before you know where to begin.</p>
+      <p class="lede">GestaltView is a system for holding human context, continuity, and creation. This guide pairs the Master Wiki’s visual record with 11 source-traced v3 runtime maps—so you can find your depth without reading 116 pages first.</p>
       <div class="landing-rule">Choose the kind of map you want first</div>
       <div class="entry-grid" role="group" aria-label="Choose an entry depth">
         <button class="entry-card" type="button" data-level="orientation"><span class="entry-index">01 / START HERE</span><span class="entry-arrow" aria-hidden="true">↗</span><h2>Get oriented</h2><p>Plain language. What the system is for, and why its pieces matter.</p></button>
         <button class="entry-card" type="button" data-level="system"><span class="entry-index">02 / FOLLOW THE WORK</span><span class="entry-arrow" aria-hidden="true">↗</span><h2>Understand the system</h2><p>Product surfaces, roles, data movement, and the boundaries between them.</p></button>
         <button class="entry-card" type="button" data-level="architecture"><span class="entry-index">03 / OPEN THE WIRING CABINET</span><span class="entry-arrow" aria-hidden="true">↗</span><h2>Explore the architecture</h2><p>Runtime relationships, implementation labels, and the source trail.</p></button>
       </div>
-      <p class="fine-print"><strong>Small but important filing note:</strong> a diagram shows a documented relationship; it does not, by itself, prove that every path is live. Each visual keeps its page reference, and source figures remain distinguishable from explanation.</p>
+      <p class="fine-print"><strong>Small but important filing note:</strong> wiki visuals keep their page references; runtime maps name the checked-in v3 commit. Neither is a live deployment report. The two source layers remain visibly separate.</p>
     </section>
 
     <section class="experience" id="experience" aria-label="Interactive visual story">
@@ -92,17 +95,26 @@
   function chapterItems(chapterId) { return items.filter(item => item.chapter_id === chapterId); }
   function renderNav(query='') {
     const normalized = query.trim().toLowerCase();
-    const shown = items.filter(item => !normalized || [item.title,item.caption,item.section,item.chapter_title,item.source_ref].join(' ').toLowerCase().includes(normalized));
+    const shown = items.filter(item => !normalized || [item.title,item.caption,item.section,item.chapter_title,item.source_ref,(item.evidence_keys||[]).join(' '),JSON.stringify(item.claim_corrections||[])].join(' ').toLowerCase().includes(normalized));
     document.getElementById('inventory-count').textContent = `${shown.length} / ${items.length}`;
     if (!shown.length) { nav.innerHTML = '<p class="empty-search">No match in the atlas. Try a system name, room, or source term.</p>'; return; }
     nav.innerHTML = chapters.map(chapter => {
       const entries = shown.filter(item => item.chapter_id === chapter.id);
       if (!entries.length) return '';
-      return `<section><h2 class="chapter-title">${escapeHtml(chapter.title)}</h2>${entries.map(item => `<button class="nav-item ${item.id===activeId?'active':''}" type="button" data-item="${escapeHtml(item.id)}">${escapeHtml(item.title)}<small>${escapeHtml(item.kind_label)} · PDF p. ${item.page}</small></button>`).join('')}</section>`;
+      return `<section><h2 class="chapter-title">${escapeHtml(chapter.title)}</h2>${entries.map(item => {const ref=item.source_layer==='v3_runtime'?`v3 @ ${item.source_commit}`:`PDF p. ${item.page}`;return `<button class="nav-item ${item.id===activeId?'active':''}" type="button" data-item="${escapeHtml(item.id)}">${escapeHtml(item.title)}<small>${escapeHtml(item.kind_label)} · ${escapeHtml(ref)}</small></button>`;}).join('')}</section>`;
     }).join('');
   }
   function escapeHtml(value) {
     return String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  }
+  function renderCorrectionNotes(item) {
+    const notes = item.claim_corrections || [];
+    if (!notes.length) return '';
+    return `<section class="claim-corrections" aria-label="Claim correction notes"><h3>Claim correction</h3>${notes.map(note => {
+      const wikiLines = (note.wiki_lines || []).join(', ');
+      const sources = (note.source_paths || []).map(source => `${source.path}${source.line_range ? ` · lines ${source.line_range}` : ''}`).join(' · ');
+      return `<article class="claim-review"><div class="claim-status">${escapeHtml(note.disposition)} · Deep Wiki lines ${escapeHtml(wikiLines)}</div><p><strong>Wiki claim:</strong> ${escapeHtml(note.claim)}</p><p><strong>Source-checked correction:</strong> ${escapeHtml(note.correction)}</p><div class="claim-source">Source references: ${escapeHtml(sources)}</div></article>`;
+    }).join('')}</section>`;
   }
   function start(level) {
     activeLevel = level;
@@ -127,6 +139,12 @@
     const chapter = chapters.find(entry => entry.id === item.chapter_id);
     const levelText = item.explanations[activeLevel] || item.explanations.system;
     let selectedPartIndex = -1;
+    const pageRef = item.source_layer === 'v3_runtime' ? `Repository snapshot ${item.source_commit}` : `Source page ${item.page} of 116`;
+    const honestyNote = item.source_layer === 'v3_runtime'
+      ? 'Source code and checked-in configuration show repository-level paths, not successful live execution or deployment.'
+      : 'A relationship map is not a status report. The source page is the authority for what this visual claims.';
+    const sourceLinks = item.source_map_path ? ` · <a href="${escapeHtml(item.source_map_path)}" target="_blank" rel="noopener">Open Mermaid source</a><a href="${escapeHtml(item.evidence_index_path)}" target="_blank" rel="noopener">Evidence index</a>` : '';
+    const correctionNotes = renderCorrectionNotes(item);
     const tabs = Object.entries(levels).map(([key,value]) => `<button class="lens-tab" type="button" role="tab" aria-selected="${activeLevel===key}" data-lens="${key}">${escapeHtml(value.short)}</button>`).join('');
     const parts = item.parts?.length ? `<section class="part-explorer" id="explore-parts" aria-labelledby="parts-title">
       <h3 id="parts-title">Explore key ideas</h3>
@@ -141,15 +159,16 @@
       <section class="story-card" aria-labelledby="visual-title">
         <div class="figure-frame"><img id="figure-image" src="${item.image_data}" alt="${escapeHtml(item.alt_text)}" tabindex="0" aria-label="Open a larger view of ${escapeHtml(item.title)}"></div>
         <div class="card-content">
-          <div class="visual-meta"><span class="source-tag">${escapeHtml(item.kind_label)}</span><span class="page-tag">Source page ${item.page} of 116</span></div>
+          <div class="visual-meta"><span class="source-tag">${escapeHtml(item.kind_label)}</span><span class="page-tag">${escapeHtml(pageRef)}</span>${item.evidence_status ? `<span class="${item.source_layer === 'master_wiki_v4' ? 'status-tag' : 'page-tag'}">${escapeHtml(item.evidence_status)}</span>` : ''}</div>
           <h2 id="visual-title">${escapeHtml(item.title)}</h2>
           <p class="caption">${escapeHtml(item.caption || item.title)}</p>
           ${parts}
           <div class="lens-tabs" role="tablist" aria-label="Explanation depth">${tabs}</div>
           <p class="explanation" id="explanation-text">${escapeHtml(levelText)}</p>
-          ${item.context ? `<div class="source-context"><strong>What the surrounding wiki says</strong>${escapeHtml(item.context)}</div>` : ''}
-          <p class="honesty-note"><strong>Interpretation rule:</strong> a relationship map is not a status report. The source page is the authority for what this visual claims.</p>
-          <p class="source-note">${escapeHtml(item.source_ref)}${item.anchor ? ` · ${escapeHtml(item.anchor)}` : ''}</p>
+          ${item.context ? `<div class="source-context"><strong>${escapeHtml(item.context_label || 'What the surrounding wiki says')}</strong>${escapeHtml(item.context)}</div>` : ''}
+          ${correctionNotes}
+          <p class="honesty-note"><strong>${item.source_layer === 'v3_runtime' ? 'Runtime boundary:' : 'Interpretation rule:'}</strong> ${escapeHtml(honestyNote)}</p>
+          <p class="source-note">${escapeHtml(item.source_ref)}${item.anchor ? ` · ${escapeHtml(item.anchor)}` : ''}${sourceLinks}</p>
         </div>
       </section>
       <div class="story-nav"><button class="action" type="button" data-prev ${prev?'':'disabled'}>← Previous</button><span class="progress">${storyIndex+1} of ${items.length} overall · ${chapterIndex+1} in this chapter</span><button class="action" type="button" data-next ${next?'':'disabled'}>Next →</button></div>`;

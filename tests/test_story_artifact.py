@@ -9,6 +9,28 @@ TEMPLATE = ROOT / "story_template.html"
 
 
 class StoryArtifactAcceptanceTests(unittest.TestCase):
+    def test_room_flow_correction_and_stale_inventory_warning_are_present(self):
+        inventory = json.loads(INVENTORY.read_text(encoding="utf-8"))
+        items = {item["id"]: item for item in inventory["items"]}
+        diw = items["curated-04"]
+        diw_text = json.dumps(diw, ensure_ascii=False)
+        self.assertIn("Historical diagram", diw.get("evidence_status", ""))
+        self.assertIn("supersedes", diw["context"].lower())
+        self.assertIn("Distilled / Reflective", diw_text)
+        self.assertIn("manual promotion", diw_text.lower())
+        self.assertIn("does not assign", diw_text.lower())
+        self.assertNotIn("organize raw captures by their relationship", diw_text.lower())
+        self.assertNotIn("attention and history", diw_text.lower())
+
+        inventory_figure = items["figure-p026-3-room-state-and-theme-pipeline"]
+        self.assertIn("stale", inventory_figure.get("evidence_status", "").lower())
+        self.assertIn("not a current", inventory_figure["context"].lower())
+        self.assertIn("route", inventory_figure["context"].lower())
+
+        html = ARTIFACT.read_text(encoding="utf-8")
+        self.assertIn("Historical diagram", html)
+        self.assertIn("Stale page-inventory warning", html)
+
     def test_complete_source_mapped_story_artifact_exists(self):
         self.assertTrue(INVENTORY.is_file(), "diagram inventory has not been built")
         self.assertTrue(ARTIFACT.is_file(), "standalone story artifact has not been built")
@@ -29,8 +51,12 @@ class StoryArtifactAcceptanceTests(unittest.TestCase):
             self.assertTrue(item["id"])
             self.assertNotIn(item["id"], ids)
             ids.add(item["id"])
-            self.assertGreaterEqual(item["page"], 1)
-            self.assertLessEqual(item["page"], 116)
+            if item["kind"] == "runtime_map":
+                self.assertIsNone(item["page"])
+                self.assertEqual(item["source_commit"], "03284ea")
+            else:
+                self.assertGreaterEqual(item["page"], 1)
+                self.assertLessEqual(item["page"], 116)
             self.assertTrue(item["title"].strip())
             self.assertTrue(item["source_ref"].strip())
             self.assertTrue(item["source_form"].strip())

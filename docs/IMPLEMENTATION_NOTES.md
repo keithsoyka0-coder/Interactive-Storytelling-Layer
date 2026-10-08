@@ -1,37 +1,43 @@
-# Visual Story Layer — Implementation Plan
+# Visual Story Layer — Implementation Notes
 
-**Source design:** `docs/superpowers/specs/2026-10-07-visual-story-design.md`  
-**State:** Complete — 2026-10-07
+**Source design:** `docs/superpowers/specs/2026-10-08-self-host-verified-runtime-story-integration-design.md`  
+**State:** Integrated static artifact with room-definition corrections; acceptance suite passed on 2026-10-08
 
 ## Completed work
 
-### 1. Source inventory
+### 1. Preserved wiki visual layer
 
-- Indexed 13 diagrams in the opening curated visual layer, 39 later figure captions, and the 2 raw Mermaid graph source blocks printed on PDF page 78: 54 visuals total.
-- Recorded title/caption, PDF page, source form, confidence notes, chapter, and asset path for each item.
-- Searched the extracted text of all 116 PDF pages for Mermaid syntax markers; the two page-78 snippets were the only raw Mermaid blocks found.
-- Kept the older 98-block project exhibit out of the source corpus; it was not merged.
-- No exceptions were identified within the discovered 54-item inventory.
+- Retained the original 54-item inventory: 13 curated diagrams, 39 captioned figures, and 2 printed Mermaid snippets.
+- Kept page references, source forms, confidence notes, and explanatory key-idea controls intact.
+- Preserved source crops, while marking the page-4 Dynamic Inner World figure as historical/superseded and the page-26 Page Inventory Table as stale.
+- Corrected the D.I.W. explanations at all three depths and for all six surfaces: the room is Distilled / Reflective, not a raw-capture sorting layout; surfaces remain spatial presentation surfaces without unsupported attention/time categories.
 
-### 2. Extraction and validation
+### 2. Added code-verified v3 runtime atlas
 
-- Preserved the 13 opening diagrams and 39 captioned figures as source-page crops rather than redrawing them.
-- Reproduced and rendered the two Mermaid snippets from the printed PDF text, normalizing line wrapping for rendering while keeping labels and edge relationships.
-- Inspected the PDF’s candidate figure pages and checked representative crops and a rendered Mermaid card visually.
+- Added 11 Mermaid maps and rendered images, sourced from the architecture atlas at commit `03284ea`.
+- Bundled the Markdown map sources, scope/method note, inventory, and evidence index under `source_pack/v3-architecture-atlas/` without copying the v3 code checkout.
+- Kept the runtime lane separate from the wiki lane and labeled it as a repository snapshot, not a live deployment report.
+- Added a nine-entry, line-cited correction ledger for stale or unsupported Deep Wiki claims about Billy paths/performance, API path names, cron jobs, health checks, Edge Functions, trainer workers, deployment state, and quality metrics.
+- Bundled the user-supplied room-definition summary as a product-contract reference, not as proof of current implementation.
 
-### 3. Standalone experience
+### 3. Integrated self-hosted experience
 
-- Built a single-file HTML guide with three entry depths, seven story chapters, a searchable visual atlas, global previous/next navigation, depth tabs, image zoom, and source/page attribution.
-- Added selectable key-idea explanations to the 13 curated cards. These controls are explicitly explanatory text, not coordinate-level hotspots; the PDF does not supply reliable node geometry across the preserved figures.
-- Embedded all 54 images. The standalone HTML contains no external script, stylesheet, or image dependencies.
+- Retained the three reading depths: orientation, product/system, and architecture.
+- Added runtime-source and evidence links, correction callouts, source-layer-aware navigation labels, and search across map/evidence/correction text.
+- Kept image zoom, keyboard navigation, mobile navigation, and historical page attribution.
+- The final page remains a single HTML file with embedded image data and no external runtime assets.
 
-### 4. Verification
+### 4. Build and verification
 
-- `python3 -m unittest discover -s tests -v` — passed.
-- Browser smoke checks — entry-depth selection, atlas search, Mermaid-card navigation, key-part selection, depth-dependent part explanation, image zoom/keyboard dismissal, arrow-key story navigation, mobile drawer, and no horizontal overflow at 390px; browser console reported no errors.
-- Opened the HTML directly with headless Chrome and received the rendered page title and entry screen.
-- Source-pack ZIP integrity and the 54-row CSV index verified; preview endpoint returned HTTP 200.
+- `python3 -m py_compile build_story_artifact.py` — passed.
+- `python3 build_integrated_story.py` — generated 54 historical visuals + 11 runtime maps = 65 total.
+- `python3 -m unittest discover -s tests -v` — 6 tests passed, 0 failures, including the new room-copy and stale-inventory regression test.
+- The integrated UI was not re-run through a browser smoke test in this correction pass; use a local static preview before a public launch if visual QA is required.
+
+## Rebuild
+
+The integrated builder uses Python's standard library and the bundled package data. To regenerate the historical PDF layer, first supply the omitted Master Wiki PDF and use the optional PDF dependencies; then rerun `build_integrated_story.py` to restore the combined 65-item artifact. The two-map wiki Mermaid renderer remains an external build utility; v3 map renders are bundled.
 
 ## Scope and limitations
 
-The verified count is based on the 13 explicit diagrams in the opening visual layer, the 39 later `Figure` captions, and all Mermaid syntax blocks found in the PDF text. It is not a claim that every uncaptioned illustration or decorative graphic anywhere in the wiki has been catalogued. PDF crops can include adjacent text to preserve context. Where Mermaid source was absent, the original PDF rendering—not an inferred reconstruction—is the visual source of record.
+The runtime atlas represents checked-in code and configuration at commit `03284ea`. It does not verify production deployments, credentials, environment-specific provider behavior, successful live requests, or performance measurements. Vision Blueprint/design-intent content is excluded from that runtime atlas. The correction ledger records claim-level reconciliation, not a comprehensive audit of every sentence in the Deep Wiki. The room-definition reference is clearly labeled as a product contract and does not claim the rebuilding D.I.W. page is live.

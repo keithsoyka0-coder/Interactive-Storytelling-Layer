@@ -98,9 +98,9 @@ CURATED_COPY = {
         "architecture": "The lifecycle labels include Captured, Holding, InnerWorld, PendingScaffold, Approved/Rejected/Deleted, Connected, ScaffoldArtifact, CreationCandidate, Blueprint, Artifact, and Exported. The source preserves capture-first behavior and makes approval/deletion branches explicit.",
     },
     4: {
-        "orientation": "The Dynamic Inner World is described as a room with six surfaces—not because every thought needs a room tour, but because different kinds of context need somewhere to sit.",
-        "system": "Forward, Back, Left, Right, Ceiling, and Floor organize raw captures by their relationship to the person’s attention and history. Inspection is available; sending material onward is optional.",
-        "architecture": "The source names six surfaces and maps active/visible material, older accumulated material, and unresolved/not-yet-landed material to spatial locations. It distinguishes the Inner World from the compressed External Scaffold.",
+        "orientation": "Dynamic Inner World is the Museum of You: a Distilled / Reflective space where evidence-backed skills, patterns, personality, and approved work become a human portrait. The six surfaces are spatial presentation surfaces—not bins for sorting raw thoughts.",
+        "system": "External Scaffold is the Accumulated / Structural map; Dynamic Inner World is the Distilled / Reflective Museum of You. It presents selected, finished, workshopped artifacts as provenance-carrying frames that open into interactive work. Entry requires explicit manual promotion; raw captures do not auto-land.",
+        "architecture": "Read Forward Wall, Back Wall, Left Wall, Right Wall, Ceiling, and Floor as spatial presentation surfaces. Room Definitions v0.4 does not assign them attention, timeline, or raw-capture categories. Its pipeline is Active Work → approval-gated Scaffold accumulation → on-demand Inner World synthesis. Identity claims must be evidence-linked and user-approved; artifacts are manually promoted.",
     },
     5: {
         "orientation": "Continuity is not just remembering the closest matching paragraph. The system tries to keep source material, meaning, and time in view together.",
@@ -153,7 +153,7 @@ CURATED_PARTS = {
     1: [("Experience surfaces", "The screens and rooms where a person meets the system."), ("Intelligence and orchestration", "The layer that coordinates requests and routes work."), ("Continuity", "Memory and identity context carried across moments."), ("Execution", "The systems that perform work or produce outputs."), ("Persistence", "The stores that retain records and structured state.")],
     2: [("Fragment", "A thought can be captured before it has a final destination."), ("Sanctuary", "A protected place to capture without having to perform."), ("Blackboard", "A working surface for arranging captured material."), ("Dynamic Inner World", "Raw, spatial expression held in a personal workspace."), ("External Scaffold", "An approved, compressed structure that can support action."), ("Artifact", "A produced result that can move downstream.")],
     3: [("Captured", "Material is saved before the person has to decide where it belongs."), ("Holding", "A temporary state keeps material available without forcing a destination."), ("Approved / Rejected / Deleted", "These are distinct outcomes, not interchangeable cleanup labels."), ("Connected", "Approved material can be linked to a creation candidate."), ("Blueprint", "A selected candidate is shaped into a plan for making something."), ("Exported", "An output can leave the system after its earlier steps.")],
-    4: [("Forward", "A surface for what is currently in front of attention."), ("Back", "A surface for material behind or accumulated over time."), ("Left", "One of the room's named spatial surfaces."), ("Right", "One of the room's named spatial surfaces."), ("Ceiling", "A named surface in the six-surface room model."), ("Floor", "A named surface in the six-surface room model.")],
+    4: [(name, "A named spatial display surface in the Museum of You. The current room definition does not assign this surface a raw-capture, attention, or time category.") for name in ("Forward Wall", "Back Wall", "Left Wall", "Right Wall", "Ceiling", "Floor")],
     5: [("Raw sources", "Original material remains distinct from later interpretations."), ("Knowledge fragments", "Smaller pieces can be indexed and retrieved by meaning."), ("Embeddings", "Vector representations support similarity-based retrieval."), ("Temporal context", "Time and arcs add context that similarity alone cannot provide."), ("Retrieval", "Relevant material is gathered for the present task."), ("Context assembly", "Selected sources and context are brought together before a response.")],
     6: [("Input and intent", "The request is considered with what the person is trying to do."), ("Context assembly", "Relevant personal and task context is gathered."), ("Embodiment Profile", "A profile carries identity, relationship, and operating context."), ("Router / orchestrator", "The coordination layer selects a route or handoff."), ("Specialized Digital Intelligences", "Different capabilities can take on different kinds of work."), ("Operational outputs", "The result returns to a human-facing workflow.")],
     7: [("Existing skills", "Current capabilities contribute context to the profile."), ("Capability gap", "The map makes a missing capability visible."), ("Skills Keeper", "A role that notices and describes capability gaps."), ("Skills Creator", "A role that can shape a needed capability into a skill."), ("Runtime capability", "A skill may become available to the agent at runtime.")],
@@ -165,6 +165,27 @@ CURATED_PARTS = {
     13: [("Core concepts", "Shared ideas connect otherwise separate wiki sections."), ("Repository map", "The source shows where major responsibilities live."), ("Frontend and backend", "Product surfaces and service routes are linked in the documentation."), ("Orchestration and Billy", "Companion behavior and request routing appear as related topics."), ("Data and corpus", "Persistence and source knowledge are linked to runtime concerns."), ("Skills and governance", "Capabilities and constraints are part of the same document network."), ("Diligence and glossary", "Evidence and definitions help readers inspect the system.")],
 }
 
+
+CURATED_METADATA = {
+    4: {
+        "evidence_status": "Historical diagram — superseded by room contract v0.4 (2026-10-08)",
+        "context_label": "Current room-contract correction",
+        "context": "This page 4 PDF figure preserves an earlier raw-capture flow. The supplied Room Definitions v0.4 (2026-10-08) supersedes that interpretation: Dynamic Inner World is Distilled / Reflective, the Museum of You. External Scaffold is the Accumulated / Structural map and feeds on-demand synthesis. Finished, workshopped artifacts and evidence-linked identity claims are shown only after explicit user approval; raw captures do not auto-land. The six named surfaces remain spatial presentation surfaces, but v0.4 does not define them as raw-capture, attention, or time categories.",
+    }
+}
+
+LEGACY_FIGURE_OVERRIDES = {
+    "figure-p026-3-room-state-and-theme-pipeline": {
+        "evidence_status": "Stale page inventory — paths/functions are not current route evidence",
+        "context_label": "Stale page-inventory warning",
+        "context": "This page 26 crop includes an older Page Inventory Table. Its page names, file paths, and functional-role descriptions are a stale wiki snapshot, not a current route or function list. Do not use them to infer live application behavior. The supplied room contract is dated 2026-10-08 and marks DynamicInnerWorldPage.tsx as cleared/rebuilding; verify actual routes and functions from the current repository.",
+        "explanations": {
+            "orientation": "This preserved page shows a historical room-state/theme pipeline alongside a page inventory table. The table's routes and function descriptions are stale—not a current map of the application.",
+            "system": "Keep the room-state diagram separate from the accompanying Page Inventory Table. Use the room contract dated 2026-10-08 for room purpose and check current source for routes and functions; do not reuse the table as live documentation.",
+            "architecture": "The Page Inventory Table on PDF page 26 is not verified against the current source snapshot. Its paths and functions must be rechecked; the room-contract update marks DynamicInnerWorldPage.tsx as cleared/rebuilding. The adjacent pipeline graphic is historical wiki material, not proof of present runtime behavior.",
+        },
+    }
+}
 
 def curated_part_explanations(label: str, meaning: str, page: int) -> dict[str, str]:
     return {
@@ -307,7 +328,8 @@ def make_curated_items(pdf: pymupdf.Document) -> list[dict[str, Any]]:
             "chapter_title": next(ch["title"] for ch in CHAPTERS if ch["id"] == chapter_id),
             "source_ref": f"GestaltView Master Wiki v4.0 · PDF page {page_index + 1}",
             "anchor": "Opening curated visual layer; Mermaid source unavailable in the PDF text",
-            "context": "",
+            **CURATED_METADATA.get(number, {}),
+            "context": CURATED_METADATA.get(number, {}).get("context", ""),
             "asset_path": str(asset_path.relative_to(ROOT)),
             "alt_text": f"Source-page crop of the diagram titled {title}, from page {page_index + 1} of the wiki PDF.",
             "featured": True,
@@ -358,7 +380,7 @@ def make_figure_items(pdf: pymupdf.Document) -> list[dict[str, Any]]:
             if len(context) > 680:
                 context = context[:677].rsplit(" ", 1)[0] + "…"
             chapter_id = chapter_for(f"{title} {section}")
-            items.append({
+            item = {
                 "id": identifier,
                 "kind": "captioned_figure",
                 "kind_label": "Source wiki figure",
@@ -379,7 +401,10 @@ def make_figure_items(pdf: pymupdf.Document) -> list[dict[str, Any]]:
                 "featured": False,
                 "curated_order": 1000,
                 "explanations": generic_explanations(title, section, context, page_index + 1),
-            })
+            }
+            if identifier in LEGACY_FIGURE_OVERRIDES:
+                item.update(LEGACY_FIGURE_OVERRIDES[identifier])
+            items.append(item)
     return items
 
 
